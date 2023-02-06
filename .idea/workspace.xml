@@ -4,41 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEECROWD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1009.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1010.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1013.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1014.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1015.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1016.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1017.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1019.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1020.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/D1021_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D1021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1021.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +45,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.D1021">
     <configuration name="D1020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D1020" />
       <module name="BEECROWD" />
@@ -80,8 +62,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D1021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D1021" />
+      <module name="BEECROWD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D1021_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D1021_2" />
+      <module name="BEECROWD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D1021" />
+        <item itemvalue="Application.D1021_2" />
         <item itemvalue="Application.D1020" />
       </list>
     </recent_temporary>
@@ -94,11 +92,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675701603658</updated>
-      <workItem from="1675701605003" duration="929000" />
+      <workItem from="1675701605003" duration="5067000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1675702967242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675702967242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
