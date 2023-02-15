@@ -1,47 +1,31 @@
-
-import java.io.IOException;
 import java.util.Scanner;
 
 public class teste {
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                int n = sc.nextInt();
 
-public static void main(String[] args) throws IOException {
-        Scanner leitor = new Scanner(System.in);
-        int A = leitor.nextInt();
-        int B = leitor.nextInt();
-        int C = leitor.nextInt();
-        if (A < B && A < C) {
-        System.out.println(A);
-        if (B < C) {
-        System.out.println(B);
-        System.out.println(C);
-        } else {
-        System.out.println(C);
-        System.out.println(B);
-        }
-        } else if (B < C) {
-        System.out.println(B);
-        if (A < C) {
-        System.out.println(A);
-        System.out.println(C);
-        } else {
-        System.out.println(C);
-        System.out.println(A);
-        }
-        } else {
-        System.out.println(C);
-        if (A < B) {
-        System.out.println(A);
-        System.out.println(B);
-        } else {
-        System.out.println(B);
-        System.out.println(A);
-        }
-        }
+                while (n-- > 0) {
+                        int[] pts = {0, 0};
+                        for (int i = 0; i < 3; i++) {
+                                int x = sc.nextInt();
+                                int d = sc.nextInt();
+                                pts[0] += x * d;
+                        }
 
-        System.out.println("");
-        System.out.println(A);
-        System.out.println(B);
-        System.out.println(C);
-        }
+                        for (int i = 0; i < 3; i++) {
+                                int x = sc.nextInt();
+                                int d = sc.nextInt();
+                                pts[1] += x * d;
+                        }
 
+                        if (pts[0] > pts[1]) {
+                                System.out.println("JOAO");
+                        } else {
+                                System.out.println("MARIA");
+                        }
+                }
+
+                sc.close();
         }
+}
