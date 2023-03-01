@@ -1,18 +1,28 @@
-import java.io.IOException;
+import java.io.IOException;import java.util.Locale;
 import java.util.Scanner;
 
 public class Testes {
 
-public static void main(String[] args) throws IOException {
-        Scanner leitor = new Scanner(System.in);
-        int T = leitor.nextInt();
-        int R1, R2, R3;
-        for (int i = 0; i < T; i++) {
-        R1 = leitor.nextInt();
-        R2 = leitor.nextInt();
-        R3 = R1 + R2;
-        System.out.println(R3);
-        }
-        }
+        public static void main(String[] args)  throws IOException {
+                Scanner sc = new Scanner(System.in);
+                sc.useLocale(Locale.ENGLISH);
+                Locale.setDefault(new Locale("en", "US"));
 
+                int x=1, y=1;
+
+                while (x != 0 && y != 0){
+                        x = sc.nextInt();
+                        y = sc.nextInt();
+
+                        if (x > 0 && y > 0)
+                                System.out.println("primeiro");
+                        if (x < 0 && y > 0)
+                                System.out.println("segundo");
+                        if (x < 0 && y < 0)
+                                System.out.println("terceiro");
+                        if (x > 0 && y < 0)
+                                System.out.println("quarto");
+                }
+                sc.close();
         }
+}
