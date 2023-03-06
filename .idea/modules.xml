@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/scr2/ARRAY/ARRAY.iml" filepath="$PROJECT_DIR$/scr2/ARRAY/ARRAY.iml" />
       <module fileurl="file://$PROJECT_DIR$/BEECROWD.iml" filepath="$PROJECT_DIR$/BEECROWD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scr2/DATE_LOCAL_ISO8601/DATE_LOCAL_ISO8601.iml" filepath="$PROJECT_DIR$/scr2/DATE_LOCAL_ISO8601/DATE_LOCAL_ISO8601.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scr2/MATRIZ/MATRIZ.iml" filepath="$PROJECT_DIR$/scr2/MATRIZ/MATRIZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scr2/Resolvidos/Resolvidos.iml" filepath="$PROJECT_DIR$/scr2/Resolvidos/Resolvidos.iml" />
       <module fileurl="file://$PROJECT_DIR$/scr2/scr2.iml" filepath="$PROJECT_DIR$/scr2/scr2.iml" />
     </modules>
   </component>

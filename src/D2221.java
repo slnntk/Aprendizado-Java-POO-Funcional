@@ -2,80 +2,85 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class D2221 {
-
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  throws IOException  {
         Scanner sc = new Scanner(System.in);
+        new TorneioPokemon(sc);
+        sc.close();
+    }
+}
+
+class TorneioPokemon{
+
+    public TorneioPokemon(Scanner sc) {
         int nBatalhas = sc.nextInt();
-
-        for (int i = 0;i < nBatalhas;i++){
-            int bonus = sc.nextInt();
-            Poke p1 = new Poke(sc.nextInt(), sc.nextInt(), sc.nextInt(), bonus);
-            Poke p2 = new Poke(sc.nextInt(), sc.nextInt(), sc.nextInt(), bonus);
-            Jogador j = new Jogador();
-            System.out.println(j.calculoBatalha(p1, p2));
+        BatalhaPokemon[] vetorBatalha = new BatalhaPokemon[nBatalhas];
+        for(int i = 0;i < nBatalhas;i++){
+            vetorBatalha[i] = new BatalhaPokemon(sc);
         }
     }
 }
 
-class Jogador{
+class BatalhaPokemon{
 
-    private String nome1;
-    private String nome2;
-
-    public Jogador() {
-
-        setNome1("Dabriel");
-        setNome2("Guarte");
-
+    public BatalhaPokemon(Scanner sc) {
+        Pokemon[] vetorPokemon = new Pokemon[2];
+        int bonus = sc.nextInt();
+        vetorPokemon[0] = new Pokemon("Dabriel",sc.nextInt(), sc.nextInt(), sc.nextInt(), bonus);
+        vetorPokemon[1] = new Pokemon("Guarte",sc.nextInt(), sc.nextInt(), sc.nextInt(), bonus);
+        resulucao(vetorPokemon);
     }
 
-    public String calculoBatalha(Poke p1, Poke p2){
-        int v1 = 0;
-        int v2 = 0;
+    public void resulucao(Pokemon[] vetor){
 
-        v1 = ((p1.getAtaque() + p1.getDefesa()) / 2) + (p1.getLevel() % 2 == 0 ? p1.getBonus() : 0);
-        v2 = ((p2.getAtaque() + p2.getDefesa()) / 2) + (p2.getLevel() % 2 == 0 ? p1.getBonus() : 0);
-
-        if (v1 == v2){
-            return "Empate";
+        if (vetor[0].getLevel() % 2 != 0){
+            vetor[0].setBonus(0);
         }
-        else if (v2 > v1){
-            return getNome2();
+        if (vetor[1].getLevel() % 2 != 0){
+            vetor[1].setBonus(0);
         }
-        else {
-            return getNome1();
+
+        if (((vetor[0].getAtaque() + vetor[0].getDefesa())/2) + vetor[0].getBonus() > ((vetor[1].getAtaque() + vetor[1].getDefesa())/2) + vetor[1].getBonus()){
+            System.out.println(vetor[0].getnomeTreinador());
+        }
+
+        else if (((vetor[0].getAtaque() + vetor[0].getDefesa())/2) + vetor[0].getBonus() < ((vetor[1].getAtaque() + vetor[1].getDefesa())/2) + vetor[1].getBonus()){
+            System.out.println(vetor[1].getnomeTreinador());
+        }
+
+        else{
+            System.out.println("Empate");
         }
     }
 
-    public String getNome1() {
-        return nome1;
-    }
 
-    public void setNome1(String nome1) {
-        this.nome1 = nome1;
-    }
-
-    public String getNome2() {
-        return nome2;
-    }
-
-    public void setNome2(String nome2) {
-        this.nome2 = nome2;
-    }
 }
 
-class Poke {
+class Pokemon{
 
+    private final String nomeTreinador;
     private int ataque;
     private int defesa;
     private int level;
     private int bonus;
 
-    public Poke(int ataque, int defesa, int level, int bonus) {
+    public Pokemon(String nomeTreinador, int ataque, int defesa, int level, int bonus) {
         setAtaque(ataque);
         setDefesa(defesa);
         setLevel(level);
         setBonus(bonus);
+        this.nomeTreinador = nomeTreinador;
+    }
+
+    public int getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(int bonus) {
+        this.bonus = bonus;
+    }
+
+    public String getnomeTreinador() {
+        return nomeTreinador;
     }
 
     public int getAtaque() {
@@ -100,13 +105,5 @@ class Poke {
 
     public void setLevel(int level) {
         this.level = level;
-    }
-
-    public int getBonus() {
-        return bonus;
-    }
-
-    public void setBonus(int bonus) {
-        this.bonus = bonus;
     }
 }

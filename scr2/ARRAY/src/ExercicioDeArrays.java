@@ -32,7 +32,8 @@ class GestorFuncionarios{
                 System.out.print("ID: ");
                 int id = sc.nextInt();
                 System.out.print("NOME: ");
-                String nome = sc.next();
+                sc.nextLine();
+                String nome = sc.nextLine();
                 System.out.print("SALARIO: ");
                 double salario = sc.nextDouble();
                 setVetorFuncionarios(new Funcionarios(id, nome, salario));
@@ -43,14 +44,23 @@ class GestorFuncionarios{
 
         System.out.print("Diga o id do funcionario: ");
         int n = sc.nextInt();
-        System.out.print("Porcentagem de aumento: ");
-        double aumento = sc.nextDouble();
-        System.out.println();
-        for (Funcionarios i : getVetorFuncionarios()){
-            if (n == i.getId()){
-                i.aumento(aumento);
+        if (hasId(n) == null){
+            System.out.println("Esse id não existe.");
+        }
+        else{
+            System.out.print("Porcentagem de aumento: ");
+            getVetorFuncionarios().get(hasId(n)).aumento(sc.nextDouble());
+        }
+
+    }
+
+    public Integer hasId(int id){
+        for(int i = 0;i < getVetorFuncionarios().size();i++){
+            if (getVetorFuncionarios().get(i).getId() == id){
+                return i;
             }
         }
+        return null;
     }
 
     public void listagem(){
@@ -82,7 +92,7 @@ class Funcionarios{
 
     public void aumento(double porcentagem){
         porcentagem = (porcentagem / 100) + 1;
-        setSalario(getSalario()*porcentagem);
+        this.salario = (getSalario()*porcentagem);
     }
 
     public int getId() {
@@ -98,9 +108,5 @@ class Funcionarios{
 
     public double getSalario() {
         return salario;
-    }
-
-    public void setSalario(double salario) {
-        this.salario = salario;
     }
 }

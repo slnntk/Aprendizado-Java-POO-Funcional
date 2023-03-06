@@ -1,28 +1,30 @@
-import java.io.IOException;import java.util.Locale;
 import java.util.Scanner;
 
 public class Testes {
-
-        public static void main(String[] args)  throws IOException {
+        public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
-                sc.useLocale(Locale.ENGLISH);
-                Locale.setDefault(new Locale("en", "US"));
 
-                int x=1, y=1;
+                int x = sc.nextInt();
+                int y = sc.nextInt();
 
-                while (x != 0 && y != 0){
-                        x = sc.nextInt();
-                        y = sc.nextInt();
-
-                        if (x > 0 && y > 0)
-                                System.out.println("primeiro");
-                        if (x < 0 && y > 0)
-                                System.out.println("segundo");
-                        if (x < 0 && y < 0)
-                                System.out.println("terceiro");
-                        if (x > 0 && y < 0)
-                                System.out.println("quarto");
+                if (x > y) {
+                        int temp = x;
+                        x = y;
+                        y = temp;
                 }
+
+                int sum = 0;
+
+                System.out.println(x);
+                System.out.println(y);
+                for (int i = x; i <= y; i++) {
+                        if (i % 13 != 0) {
+                                sum += i;
+                        }
+                }
+
+                System.out.println(sum);
+
                 sc.close();
         }
 }

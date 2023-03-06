@@ -1,10 +1,8 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collectors;
 
-public class Main {
+public class ARRAY {
 
     public static void main(String[] args) throws IOException {
         List<String> lista = new ArrayList<>();

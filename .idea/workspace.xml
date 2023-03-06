@@ -4,27 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Exercicios do dia 14/02 -&gt; 15/02">
-      <change afterPath="$PROJECT_DIR$/scr2/src2/AREAPERIMETRODIAGONAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr2/src2/Construtores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr2/src2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr2/src2/Vetor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1074.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1075.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1078.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1080.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1094.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1097.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1098.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1099.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1115.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D1117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D2708_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Exercicios proposto da aula 99, ExercicioDeArrays.">
+      <change afterPath="$PROJECT_DIR$/scr2/ARRAY/ARRAY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/DATE_LOCAL_ISO8601/DATE_LOCAL_ISO8601.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/DATE_LOCAL_ISO8601/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/MATRIZ/MATRIZ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/MATRIZ/src/ExercicioProposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/MATRIZ/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/Resolvidos/Resolvidos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/scr2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/src2/ARRAY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scr2/src2/PESSOAS_E_IDADE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D1131.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D1589_REFEITA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr2/src2/AREAPERIMETRODIAGONAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr2/src2/AREA_PERIMETRO_DIAGONAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr2/src2/ExercicioDeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr2/ARRAY/src/ExercicioDeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D2221.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D2221.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +41,13 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,30 +62,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/cassi/IdeaProjects/BEECROWD/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "D:/Users/cassi/IdeaProjects/BEECROWD/scr2/ARRAY",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\ARRAY" />
+      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\Resolvidos" />
       <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\src" />
       <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\src2" />
     </key>
@@ -88,31 +95,53 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vetor">
-    <configuration name="Construtores (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Construtores" />
+  <component name="RunManager" selected="Application.DATE_INSTANCIAÇÃO">
+    <configuration name="D2221 (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <log_file alias="D:\Users\cassi\IdeaProjects\BEECROWD\src\D2221.java" path="$PROJECT_DIR$/src/D2221.java" show_all="true" />
+      <option name="MAIN_CLASS_NAME" value="D2221" />
+      <module name="BEECROWD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DATE_INSTANCIAÇÃO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DATE_INSTANCIAÇÃO" />
+      <module name="DATE_LOCAL_ISO8601" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercicioDeArrays (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExercicioDeArrays" />
       <module name="scr2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Construtores (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Construtores" />
-      <module name="scr2" />
+    <configuration name="ExercicioDeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExercicioDeArrays" />
+      <module name="ARRAY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Construtores (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Construtores" />
-      <module name="scr2" />
+    <configuration name="ExercicioDeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExercicioDeArrays" />
+      <module name="ARRAY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Construtores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Construtores" />
-      <module name="scr2" />
+    <configuration name="ExercicioProposto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExercicioProposto" />
+      <module name="MATRIZ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MATRIZ" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,20 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vetor" />
-      <module name="scr2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Vetor" />
-        <item itemvalue="Application.Construtores (2)" />
-        <item itemvalue="Application.Construtores (1)" />
-        <item itemvalue="Application.Construtores (5)" />
-        <item itemvalue="Application.Construtores" />
+        <item itemvalue="Application.DATE_INSTANCIAÇÃO" />
+        <item itemvalue="Application.ExercicioProposto" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.ExercicioDeArrays (2)" />
+        <item itemvalue="Application.ExercicioDeArrays (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +205,10 @@
       <workItem from="1677603779156" duration="176000" />
       <workItem from="1677604951549" duration="11000" />
       <workItem from="1677606573840" duration="3941000" />
-      <workItem from="1677688716125" duration="1569000" />
+      <workItem from="1677688716125" duration="7138000" />
+      <workItem from="1677768424053" duration="11632000" />
+      <workItem from="1677862375979" duration="7617000" />
+      <workItem from="1678116801374" duration="10170000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1675702967242</created>
@@ -220,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676483204167</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exercicios do dia xx/02 -&gt; 01/03">
+      <created>1677690418363</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677690418363</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exercicios proposto da aula 99, ExercicioDeArrays.">
+      <created>1677868123538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677868123538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +281,9 @@
     <MESSAGE value="Exercicios do dia 07/02 -&gt; 09/02" />
     <MESSAGE value="Exercicios do dia 09/02 -&gt; 14/02" />
     <MESSAGE value="Exercicios do dia 14/02 -&gt; 15/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios do dia 14/02 -&gt; 15/02" />
+    <MESSAGE value="Exercicios do dia xx/02 -&gt; 01/03" />
+    <MESSAGE value="Exercicios proposto da aula 99, ExercicioDeArrays." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios proposto da aula 99, ExercicioDeArrays." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
