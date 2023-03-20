@@ -17,7 +17,7 @@ public class DATE_CUSTOMIZAÇÃO {
 
         String date = sc.next();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        Date data2 = new (String.valueOf(sdf.parse(date)));
+        Date data2 = new Date(String.valueOf(sdf.parse(date)));
         System.out.println(data2);
 
     }

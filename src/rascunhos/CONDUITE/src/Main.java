@@ -23,7 +23,7 @@ class FabricaDeConduites {
             double raio1 = sc.nextDouble();
             double raio2 = sc.nextDouble();
             vetorConduites[i] = new Conduite(raio1, raio2);
-            new RelatorioC(vetorConduites[i].getRai oConduite());
+            new RelatorioC(vetorConduites[i].getRaioConduite());
         }
     }
 }
