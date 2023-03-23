@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Organização/ Classes abstratas e métodos abstratos">
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/EXCECOES.iml" afterDir="false" />
+    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Exceções">
       <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesTryCatchAula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rascunhos/leitorDeTxt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +284,7 @@
       <workItem from="1679505970560" duration="213000" />
       <workItem from="1679506193899" duration="5874000" />
       <workItem from="1679581648212" duration="55000" />
-      <workItem from="1679589075460" duration="2219000" />
+      <workItem from="1679589075460" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1675702967242</created>
@@ -375,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679429171043</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exceções">
+      <created>1679591714052</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679591714052</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +406,8 @@
     <MESSAGE value="Atualizações scr2 (curso)" />
     <MESSAGE value="Atualizações semanais." />
     <MESSAGE value="Organização/ Classes abstratas e métodos abstratos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organização/ Classes abstratas e métodos abstratos" />
+    <MESSAGE value="Exceções" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceções" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
