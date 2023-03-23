@@ -4,123 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Atualizações semanais.">
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/src/abstratosContribuinte/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/src/classesAbstratasAula/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/src/metodosAbstratosAula/Main.java" afterDir="false" />
+    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Organização/ Classes abstratas e métodos abstratos">
+      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/EXCECOES.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesTryCatchAula/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rascunhos/leitorDeTxt/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1008.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1009.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1010.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1011.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1011.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1012.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1013.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1013.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1014.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1015.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1016.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1016.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1017.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1018.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1019.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1019.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1019_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1019_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1020.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1020.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1021.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1021_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1021_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1035.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1035.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1036.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1036.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1037.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1037.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1038.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1038.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1040.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1040.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1041.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1041.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1042.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1042.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1043.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1043.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1044.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1044.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1045.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1045.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1046.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1046.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1047.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1048.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1049.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1049.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1050.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1050.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1051.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1051.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1052.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1052.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1059.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1059.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1060.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1060.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1061.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1061.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1064.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1064.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1065.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1065.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1066.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1066.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1067.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1067.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1070.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1070.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1071.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1071.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1072.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1072.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1073.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1073.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1074.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1074.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1075.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1075.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1078.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1078.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1080.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1080.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1094.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1094.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1097.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1097.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1098.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1098.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1099.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1099.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1113.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1116.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1117.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1133.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1133.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1151.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1151.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1153.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1155.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1155.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1165.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1165.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1193.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1193.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1193_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1193_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1589_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1589_0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1589_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1589_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D1589_REFEITA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1589_REFEITA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D2221.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D2221.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D2310.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D2310.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D2708_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D2708_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D3037.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3037.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D3037_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3037_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/D3037_REFEITA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3037_REFEITA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/Testes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/ARRAY/ARRAY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/CLASSES e METODOS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/ARRAY/src/ExercicioDeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/src/exercicioArray/ExercicioDeArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/COMPOSICAO/COMPOSICAO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/COMPOSICAO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/COMPOSICAO/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/composicaoFuncionario/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/COMPOSICAO2/COMPOSICAO2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Date/TIPOS DE DATES E FORMATAÇÕES.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/COMPOSICAO2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/composicaoPostagem/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/DATE_LOCAL_ISO8601/DATE_LOCAL_ISO8601.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/ARRAY e MATRIZ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/DATE_LOCAL_ISO8601/src/DATE_CUSTOMIZAÇÃO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Date/src/DATE_CUSTOMIZAÇÃO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/DATE_LOCAL_ISO8601/src/DATE_INSTANCIAÇÃO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Date/src/DATE_INSTANCIAÇÃO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/ENUM/ENUM.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/ENUM/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/composicaoEnum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/HERANCA/HERANCA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/HERANCA/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/herancaContaBanco/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/MATRIZ/MATRIZ.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/MATRIZ/src/ExercicioProposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/src/exercicioMatriz/ExercicioProposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/MATRIZ/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/src/exercicioMatriz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/ODER_PRODUCT/ODER_PRODUCT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/ODER_PRODUCT/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/composicaoProduto/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO/POLIMORFISMO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/polimorfismoContas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO1/POLIMORFISMO1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/polimorfismoFuncionarios/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/src/polimorfismoProdutos/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,14 +26,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Tiago &lt;iamsunli155@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -181,7 +77,7 @@
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/Users/cassi/IdeaProjects/BEECROWD/src/BEECROWD",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -214,7 +110,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.D1004">
+  <component name="RunManager" selected="Application.rascunhos.leitorDeTxt.Main">
     <configuration name="D1004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1004" />
       <module name="JAVA2023" />
@@ -232,13 +128,6 @@
       <log_file alias="D:\Users\cassi\IdeaProjects\BEECROWD\src\D2221.java" path="$PROJECT_DIR$/src/D2221.java" show_all="true" />
       <option name="MAIN_CLASS_NAME" value="D2221" />
       <module name="JAVA2023" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="METODOSABSTRATOS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abstratosContribuinte.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstratosContribuinte.Main" />
-      <module name="CLASSES e METODOS" />
+    <configuration name="excecoesTryCatchAula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecoesTryCatchAula.Main" />
+      <module name="EXCECOES" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstratosContribuinte.*" />
+          <option name="PATTERN" value="excecoesTryCatchAula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,9 +167,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="metodosAbstratosAula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodosAbstratosAula.Main" />
-      <module name="CLASSES e METODOS" />
+    <configuration name="herancaContaBanco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="herancaContaBanco.Main" />
+      <module name="COMPOSICAO, HERANÇA E POLIMORFISMO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="herancaContaBanco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,20 +201,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="metodosAbstratos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodosAbstratos.Main" />
-      <module name="CLASSES e METODOS" />
+    <configuration name="rascunhos.leitorDeTxt.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.Main" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rascunhos.leitorDeTxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.rascunhos.leitorDeTxt.Main" />
+        <item itemvalue="Application.herancaContaBanco.Main" />
+        <item itemvalue="Application.excecoesTryCatchAula.Main" />
         <item itemvalue="Application.D1004" />
         <item itemvalue="Application.abstratosContribuinte.Main (1)" />
-        <item itemvalue="Application.abstratosContribuinte.Main" />
-        <item itemvalue="Application.metodosAbstratos.Main" />
-        <item itemvalue="Application.metodosAbstratos.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +283,13 @@
       <workItem from="1678899799434" duration="8169000" />
       <workItem from="1678981011179" duration="18481000" />
       <workItem from="1679335303404" duration="1702000" />
-      <workItem from="1679414843784" duration="11486000" />
+      <workItem from="1679414843784" duration="11712000" />
+      <workItem from="1679431757364" duration="143000" />
+      <workItem from="1679505835489" duration="125000" />
+      <workItem from="1679505970560" duration="213000" />
+      <workItem from="1679506193899" duration="5874000" />
+      <workItem from="1679581648212" duration="55000" />
+      <workItem from="1679589075460" duration="2219000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1675702967242</created>
@@ -454,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679336848807</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Organização/ Classes abstratas e métodos abstratos">
+      <created>1679429138300</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679429138300</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Organização/ Classes abstratas e métodos abstratos">
+      <created>1679429171043</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679429171043</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +403,8 @@
     <MESSAGE value="Atualizações pouco uteis." />
     <MESSAGE value="Atualizações scr2 (curso)" />
     <MESSAGE value="Atualizações semanais." />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizações semanais." />
+    <MESSAGE value="Organização/ Classes abstratas e métodos abstratos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organização/ Classes abstratas e métodos abstratos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
