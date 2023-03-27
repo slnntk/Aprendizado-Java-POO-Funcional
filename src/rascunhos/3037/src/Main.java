@@ -6,6 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         new Resultado(new Partida(sc));
         sc.close();
+        System.out.println("teste");
     }
 }
 
