@@ -29,13 +29,10 @@ class Program {
         System.out.print("Room number: ");int numerodoquarto = sc.nextInt();
         System.out.print("Check-in date (dd/MM/yyyy): ");Date datein = sdf.parse(sc.next());
         System.out.print("Check-out date (dd/MM/yyyy): ");Date dateout = sdf.parse(sc.next());
-        if (isCorrectDate(datein, dateout)){
-            createReservation(numerodoquarto,datein, dateout, sdf);
-            System.out.println(resvervationList.get(0).toString());
-        }
-        else{
-            System.exit(1);
-        }
+
+        isCorrectDate(datein, dateout);
+        createReservation(numerodoquarto,datein, dateout, sdf);
+        System.out.println(resvervationList.get(0).toString());
     }
 
     public void createReservation(Integer numerodoquarto, Date in, Date out,SimpleDateFormat sdf) throws ParseException {
@@ -47,15 +44,15 @@ class Program {
         System.out.println("Enter data to update the reservation:");
         System.out.print("Check-in date (dd/MM/yyyy): ");Date datein = sdf.parse(sc.next());
         System.out.print("Check-out date (dd/MM/yyyy): ");Date dateout = sdf.parse(sc.next());
-        if (isCorrectDate(datein, dateout)){
-            resvervation.updateDates(datein, dateout);
-            System.out.println(resvervation.toString());
-        }
+        isCorrectDate(datein, dateout);
+        resvervation.updateDates(datein, dateout);
+        System.out.println(resvervation.toString());
     }
 
     public boolean isCorrectDate(Date in, Date on){
         if (in.after(on)){
             System.out.println("Error in reservation: Check-out date must be after check-in date");
+            System.exit(1);
             return false;
         }
         else{
