@@ -7,12 +7,12 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-
-public class Main {
-    public static void main(String[] args) throws ParseException {
+{
+public static void main(String[] args) throws ParseException {
         new Program();
-    }
-}
+        }
+        }
+public class Main
 
 class Program{
 
