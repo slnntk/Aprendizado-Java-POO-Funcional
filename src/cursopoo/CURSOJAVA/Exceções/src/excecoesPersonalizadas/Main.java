@@ -7,28 +7,30 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-{
-public static void main(String[] args) throws ParseException {
-        new Program();
-        }
-        }
-public class Main
 
-class Program{
+public class Main {
+    public static void main(String[] args) throws ParseException {
+        new Program();
+    }
+}
+
+class Program {
 
     List<Resvervation> resvervationList = new ArrayList<>();
 
     public Program() throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Room number: ");int numerodoquarto = sc.nextInt();
-        System.out.print("Check-in date (dd/MM/yyyy): ");Date datein = sdf.parse(sc.next());
-        System.out.print("Check-out date (dd/MM/yyyy): ");Date dateout = sdf.parse(sc.next());
+        System.out.print("Room number: ");
+        int numerodoquarto = sc.nextInt();
+        System.out.print("Check-in date (dd/MM/yyyy): ");
+        Date datein = sdf.parse(sc.next());
+        System.out.print("Check-out date (dd/MM/yyyy): ");
+        Date dateout = sdf.parse(sc.next());
 
         Resvervation resvervation = new Resvervation(numerodoquarto, datein, dateout, sdf);
         System.out.println(resvervation.toString());
     }
-
 
 
     public void getResvervationList() {
@@ -38,7 +40,7 @@ class Program{
 
 }
 
-class Resvervation{
+class Resvervation {
 
     SimpleDateFormat simpleDateFormat;
     private Integer roomNumber;
@@ -52,11 +54,11 @@ class Resvervation{
         this.simpleDateFormat = sdf;
     }
 
-    public long duration(){
+    public long duration() {
         return TimeUnit.DAYS.convert(checkout.getTime() - checkin.getTime(), TimeUnit.MICROSECONDS);
     }
 
-    public void updateDates(Date checkin, Date checkout){
+    public void updateDates(Date checkin, Date checkout) {
         this.checkin = checkin;
         this.checkout = checkout;
     }
@@ -69,4 +71,5 @@ class Resvervation{
                 ", check-out: " + simpleDateFormat.format(checkout) +
                 " " + duration() + " nighits";
     }
+
 }
