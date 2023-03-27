@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesSolucaoMuitoRuim/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +24,8 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excecoesPersonalizadas.Main" />
-      <module name="EXCECOES" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="excecoesPersonalizadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="excecoesPersonalizadas.Main" />
       <module name="EXCECOES" />
       <extension name="coverage">
@@ -64,7 +51,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="excecoesPersonalizadas.Main" />
       <module name="EXCECOES" />
       <extension name="coverage">
@@ -77,12 +64,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecoesPersonalizadas.Main" />
+      <module name="EXCECOES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excecoesPersonalizadas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecoesSolucaoMuitoRuim.Main" />
+      <module name="EXCECOES" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excecoesSolucaoMuitoRuim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
