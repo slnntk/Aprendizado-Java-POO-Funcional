@@ -55,7 +55,7 @@ class Resvervation {
     }
 
     public long duration() {
-        return TimeUnit.DAYS.convert(checkout.getTime() - checkin.getTime(), TimeUnit.MICROSECONDS);
+        return TimeUnit.DAYS.convert(checkout.getTime() - checkin.getTime(), TimeUnit.MILLISECONDS);
     }
 
     public void updateDates(Date checkin, Date checkout) {
