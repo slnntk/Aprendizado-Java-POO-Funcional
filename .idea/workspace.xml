@@ -4,204 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="Exceções">
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/src/excecoesPersonalizadas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Tiago &lt;iamsunli155@gmail.com&gt;" />
-      </list>
-    </option>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="60c63df2-0578-4452-9595-83b0a8d97c72" />
-        <option name="url" value="https://github.com/slnntk/Java.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2LNBHNknpO7HJOw8NbUeRvnnmzR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/Java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\src\BEECROWD" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\beecrowd" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\src" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\ARRAY" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\Resolvidos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\src\rascunhos" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\src\CURSOPOO" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\TESTES" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\CURSOJAVA" />
-      <recent name="D:\Users\cassi\IdeaProjects\BEECROWD\scr2\src2" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.rascunhos.leitorDeTxt.Main">
-    <configuration name="D1004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1004" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D2221 (1)" type="Application" factoryName="Application" nameIsGenerated="true">
-      <log_file alias="D:\Users\cassi\IdeaProjects\BEECROWD\src\D2221.java" path="$PROJECT_DIR$/src/D2221.java" show_all="true" />
-      <option name="MAIN_CLASS_NAME" value="D2221" />
-      <module name="JAVA2023" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JAVA2023" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="abstratosContribuinte.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstratosContribuinte.Main" />
-      <module name="CLASSES e METODOS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstratosContribuinte.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="excecoesTryCatchAula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excecoesTryCatchAula.Main" />
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecoesPersonalizadas.Main" />
       <module name="EXCECOES" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excecoesTryCatchAula.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="herancaContaBanco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="herancaContaBanco.Main" />
-      <module name="COMPOSICAO, HERANÇA E POLIMORFISMO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="herancaContaBanco.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="metodosAbstratos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodosAbstratos.Main" />
-      <module name="CLASSES e METODOS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="metodosAbstratos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodosAbstratos.Main" />
-      <module name="CLASSES e METODOS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="metodosAbstratos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodosAbstratos.Main" />
-      <module name="CLASSES e METODOS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="rascunhos.leitorDeTxt.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.Main" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rascunhos.leitorDeTxt.*" />
+          <option name="PATTERN" value="excecoesPersonalizadas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,177 +40,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.rascunhos.leitorDeTxt.Main" />
-        <item itemvalue="Application.herancaContaBanco.Main" />
-        <item itemvalue="Application.excecoesTryCatchAula.Main" />
-        <item itemvalue="Application.D1004" />
-        <item itemvalue="Application.abstratosContribuinte.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d71acf0c-d3a0-4f3b-9f28-5a704c1e71ab" name="Changes" comment="" />
-      <created>1675701603658</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1675701603658</updated>
-      <workItem from="1675701605003" duration="10275000" />
-      <workItem from="1675784126876" duration="9859000" />
-      <workItem from="1675794720229" duration="525000" />
-      <workItem from="1675795436790" duration="2820000" />
-      <workItem from="1675798690137" duration="17730000" />
-      <workItem from="1675873835916" duration="1898000" />
-      <workItem from="1675875804671" duration="13944000" />
-      <workItem from="1676032708614" duration="11878000" />
-      <workItem from="1676050976941" duration="996000" />
-      <workItem from="1676290085995" duration="13758000" />
-      <workItem from="1676379516105" duration="10760000" />
-      <workItem from="1676396525863" duration="4427000" />
-      <workItem from="1676464793975" duration="7882000" />
-      <workItem from="1676473924337" duration="7568000" />
-      <workItem from="1676488055045" duration="1804000" />
-      <workItem from="1676490370706" duration="285000" />
-      <workItem from="1676490666750" duration="44000" />
-      <workItem from="1676491389355" duration="268000" />
-      <workItem from="1676491683679" duration="122000" />
-      <workItem from="1676491884593" duration="555000" />
-      <workItem from="1676549916319" duration="12343000" />
-      <workItem from="1676568096545" duration="4723000" />
-      <workItem from="1676650347752" duration="1196000" />
-      <workItem from="1677164274685" duration="3090000" />
-      <workItem from="1677168744371" duration="7105000" />
-      <workItem from="1677520923937" duration="598000" />
-      <workItem from="1677603779156" duration="176000" />
-      <workItem from="1677604951549" duration="11000" />
-      <workItem from="1677606573840" duration="3941000" />
-      <workItem from="1677688716125" duration="7138000" />
-      <workItem from="1677768424053" duration="11632000" />
-      <workItem from="1677862375979" duration="7617000" />
-      <workItem from="1678116801374" duration="15857000" />
-      <workItem from="1678213280868" duration="824000" />
-      <workItem from="1678291995581" duration="1027000" />
-      <workItem from="1678295612929" duration="3812000" />
-      <workItem from="1678376073037" duration="6756000" />
-      <workItem from="1678384047694" duration="1357000" />
-      <workItem from="1678465627863" duration="1856000" />
-      <workItem from="1678467645174" duration="7968000" />
-      <workItem from="1678654473587" duration="5594000" />
-      <workItem from="1678663432999" duration="1537000" />
-      <workItem from="1678665189905" duration="3667000" />
-      <workItem from="1678706677305" duration="1269000" />
-      <workItem from="1678816634583" duration="277000" />
-      <workItem from="1678899799434" duration="8169000" />
-      <workItem from="1678981011179" duration="18481000" />
-      <workItem from="1679335303404" duration="1702000" />
-      <workItem from="1679414843784" duration="11712000" />
-      <workItem from="1679431757364" duration="143000" />
-      <workItem from="1679505835489" duration="125000" />
-      <workItem from="1679505970560" duration="213000" />
-      <workItem from="1679506193899" duration="5874000" />
-      <workItem from="1679581648212" duration="55000" />
-      <workItem from="1679589075460" duration="2525000" />
-    </task>
-    <task id="LOCAL-00001" summary=".">
-      <created>1675702967242</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675702967242</updated>
-    </task>
-    <task id="LOCAL-00002" summary=".">
-      <created>1675706864080</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1675706864080</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Exercicios do dia 07/02 -&gt; 09/02">
-      <created>1676033060364</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676033060364</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Exercicios do dia 09/02 -&gt; 14/02">
-      <created>1676379833734</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676379833734</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Exercicios do dia 14/02 -&gt; 15/02">
-      <created>1676483204167</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676483204167</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Exercicios do dia xx/02 -&gt; 01/03">
-      <created>1677690418363</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1677690418363</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Exercicios proposto da aula 99, ExercicioDeArrays.">
-      <created>1677868123538</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1677868123538</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Atualizações pouco uteis.">
-      <created>1678127652789</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678127652789</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Atualizações scr2 (curso)">
-      <created>1678660321767</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1678660321767</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Atualizações semanais.">
-      <created>1679336848807</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679336848807</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Organização/ Classes abstratas e métodos abstratos">
-      <created>1679429138300</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679429138300</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Organização/ Classes abstratas e métodos abstratos">
-      <created>1679429171043</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1679429171043</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Exceções">
-      <created>1679591714052</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1679591714052</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -393,25 +57,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="." />
-    <MESSAGE value="Exercicios do dia 07/02 -&gt; 09/02" />
-    <MESSAGE value="Exercicios do dia 09/02 -&gt; 14/02" />
-    <MESSAGE value="Exercicios do dia 14/02 -&gt; 15/02" />
-    <MESSAGE value="Exercicios do dia xx/02 -&gt; 01/03" />
-    <MESSAGE value="Exercicios proposto da aula 99, ExercicioDeArrays." />
-    <MESSAGE value="Atualizações pouco uteis." />
-    <MESSAGE value="Atualizações scr2 (curso)" />
-    <MESSAGE value="Atualizações semanais." />
-    <MESSAGE value="Organização/ Classes abstratas e métodos abstratos" />
-    <MESSAGE value="Exceções" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceções" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BEECROWD$Main.ic" NAME="Main Coverage Results" MODIFIED="1675861906078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

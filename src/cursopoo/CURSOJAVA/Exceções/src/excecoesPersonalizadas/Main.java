@@ -1,5 +1,6 @@
 package excecoesPersonalizadas;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         new Program();
     }
 }
@@ -17,12 +18,13 @@ class Program{
 
     List<Resvervation> resvervationList = new ArrayList<>();
 
-    public Program() {
+    public Program() throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Scanner sc = new Scanner(System.in);
-        Integer numerodoquarto = sc.nextInt();
-        Date datein = sdf.parse(sc.next());
-        Date dateout = sdf.parse(sc.next());
+        System.out.print("Room number: ");int numerodoquarto = sc.nextInt();
+        System.out.print("Check-in date (dd/MM/yyyy): ");Date datein = sdf.parse(sc.next());
+        System.out.print("Check-out date (dd/MM/yyyy): ");Date dateout = sdf.parse(sc.next());
+
         resvervationList.add(new Resvervation(numerodoquarto, datein, dateout));
     }
 
@@ -52,7 +54,16 @@ class Resvervation{
     }
 
     public void updateDates(Date checkin, Date checkout){
-
+        this.checkin = checkin;
+        this.checkout = checkout;
     }
 
+    @Override
+    public String toString() {
+        return "Resvervation: " +
+                "Romm " + roomNumber +
+                ", check-in: " + checkin +
+                ", check-out: " + checkout +
+                duration() + " nighits";
+    }
 }
