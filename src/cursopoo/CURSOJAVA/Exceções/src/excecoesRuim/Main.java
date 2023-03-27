@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) throws ParseException {
+        //SOLUÇÃO RUIM
         new Program();
     }
 }
@@ -21,8 +22,15 @@ class Program {
     public Program() throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Scanner sc = new Scanner(System.in);
+
+
         startReservation(sc, sdf);
-        updateReservation(resvervationList.get(0), sc, sdf);
+        String error = updateReservation(resvervationList.get(0), sc, sdf);
+        if (error != null){
+            System.out.println("Error in reservation: " + error);
+        }else{
+            System.out.println("Reservation: " + resvervationList.get(0).toString());
+        }
     }
 
     public void startReservation(Scanner sc, SimpleDateFormat sdf) throws ParseException {
@@ -32,27 +40,22 @@ class Program {
 
         isCorrectDate(datein, dateout);
         createReservation(numerodoquarto,datein, dateout, sdf);
-        System.out.println(resvervationList.get(0).toString());
     }
 
     public void createReservation(Integer numerodoquarto, Date in, Date out,SimpleDateFormat sdf) throws ParseException {
         resvervationList.add(new Resvervation(numerodoquarto, in, out, sdf));
     }
 
-    public void updateReservation(Resvervation resvervation,Scanner sc, SimpleDateFormat sdf) throws ParseException {
+    public String updateReservation(Resvervation resvervation,Scanner sc, SimpleDateFormat sdf) throws ParseException {
         System.out.println();
         System.out.println("Enter data to update the reservation:");
         System.out.print("Check-in date (dd/MM/yyyy): ");Date datein = sdf.parse(sc.next());
         System.out.print("Check-out date (dd/MM/yyyy): ");Date dateout = sdf.parse(sc.next());
-        isCorrectDate(datein, dateout);
-        resvervation.updateDates(datein, dateout);
-        System.out.println(resvervation.toString());
+        return resvervation.updateDates(datein,dateout);
     }
 
     public boolean isCorrectDate(Date in, Date on){
         if (in.after(on)){
-            System.out.println("Error in reservation: Check-out date must be after check-in date");
-            System.exit(1);
             return false;
         }
         else{
@@ -86,9 +89,18 @@ class Resvervation {
         return TimeUnit.DAYS.convert(checkout.getTime() - checkin.getTime(), TimeUnit.MILLISECONDS);
     }
 
-    public void updateDates(Date checkin, Date checkout) {
+    public String updateDates(Date checkin, Date checkout) {
+        Date now = new Date();
+        if  (checkin.before(now) || checkout.before(now)){
+            return "Reservations dates for update must be future dates";
+        }
+        if (!checkout.after(checkin)){
+            return "Check-out date must be after check-in date";
+        }
         this.checkin = checkin;
         this.checkout = checkout;
+
+        return null;
     }
 
     public SimpleDateFormat getSimpleDateFormat() {
@@ -125,8 +137,7 @@ class Resvervation {
 
     @Override
     public String toString() {
-        return "Resvervation: " +
-                "Romm " + roomNumber +
+        return "Romm " + roomNumber +
                 ", check-in: " + simpleDateFormat.format(checkin) +
                 ", check-out: " + simpleDateFormat.format(checkout) +
                 " " + duration() + " nighits";
