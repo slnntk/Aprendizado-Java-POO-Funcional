@@ -25,7 +25,8 @@ class Program{
         System.out.print("Check-in date (dd/MM/yyyy): ");Date datein = sdf.parse(sc.next());
         System.out.print("Check-out date (dd/MM/yyyy): ");Date dateout = sdf.parse(sc.next());
 
-        resvervationList.add(new Resvervation(numerodoquarto, datein, dateout));
+        Resvervation resvervation = new Resvervation(numerodoquarto, datein, dateout, sdf);
+        System.out.println(resvervation.toString());
     }
 
 
@@ -39,18 +40,20 @@ class Program{
 
 class Resvervation{
 
+    SimpleDateFormat simpleDateFormat;
     private Integer roomNumber;
     private Date checkin;
     private Date checkout;
 
-    public Resvervation(Integer roomNumber, Date checkin, Date checkout) {
+    public Resvervation(Integer roomNumber, Date checkin, Date checkout, SimpleDateFormat sdf) {
         this.roomNumber = roomNumber;
         this.checkin = checkin;
         this.checkout = checkout;
+        this.simpleDateFormat = sdf;
     }
 
     public long duration(){
-        return TimeUnit.MICROSECONDS.convert(checkout.getTime() - checkin.getTime(), TimeUnit.MICROSECONDS);
+        return TimeUnit.DAYS.convert(checkout.getTime() - checkin.getTime(), TimeUnit.MICROSECONDS);
     }
 
     public void updateDates(Date checkin, Date checkout){
@@ -62,8 +65,8 @@ class Resvervation{
     public String toString() {
         return "Resvervation: " +
                 "Romm " + roomNumber +
-                ", check-in: " + checkin +
-                ", check-out: " + checkout +
-                duration() + " nighits";
+                ", check-in: " + simpleDateFormat.format(checkin) +
+                ", check-out: " + simpleDateFormat.format(checkout) +
+                " " + duration() + " nighits";
     }
 }
