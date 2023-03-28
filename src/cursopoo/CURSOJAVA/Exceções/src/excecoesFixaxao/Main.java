@@ -1,13 +1,11 @@
 package excecoesFixaxao;
 
 import java.io.Serial;
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         new Banco();
     }
 }
@@ -32,7 +30,7 @@ class Banco {
         try {
             createAccount(sc);
             for (Account a : accountList){
-                withdraw(sc, a);
+                a.withdraw(sc.nextInt());
                 System.out.printf("New balance: %.2f", a.getBalance());
             }
         } catch (DomainException e) {
@@ -51,15 +49,9 @@ class Banco {
             System.out.println("Enter account data");
             System.out.print("Nummber: ");Integer number = sc.nextInt();
             System.out.print("Holder: ");sc.nextLine();String holder = sc.nextLine();
-            System.out.print("Initial balance: ");Double balance = sc.nextDouble();
+            System.out.print("Initial balance: b ");Double balance = sc.nextDouble();
             System.out.print("Withdraw Limit: ");Double withdrawlimit = sc.nextDouble();
-            System.out.println(number + "" + holder + "" + balance + "" + withdrawlimit);
             accountList.add(new Account(number, holder, balance, withdrawlimit));
-    }
-
-    public void withdraw(Scanner sc, Account account){
-        System.out.println("Enter amount for withdraw: ");Double withdraw = sc.nextDouble();
-        account.withdraw(withdraw);
     }
 
 }
@@ -68,31 +60,32 @@ class Account{
 
     private Integer number;
     private String holder;
-    private Double balance;
+    private Double balance = 0.0;
     private Double withdrawLimit;
+
+    public Account() {
+    }
 
     public Account(Integer number, String holder, Double balance, Double withdrawLimit) {
         this.number = number;
         this.holder = holder;
-        this.balance = 0.0;
         deposit(balance);
         this.withdrawLimit = withdrawLimit;
     }
 
     public void deposit(double ammount){
-        this.balance = ammount + getBalance();
+        this.balance += ammount;
     }
 
-    public void withdraw(double ammount){
-
-        if (ammount > balance){
+    public void withdraw(int ammount){
+        System.out.println("Enter amount for withdraw: ");
+        if (ammount > getBalance()){
             throw new DomainException("Insufficient balance for withdraw of this amount");
         }
-        if (ammount > withdrawLimit){
+        if (ammount > getWithdrawLimit()){
             throw new DomainException("The amount exceeds withdraw limit");
         }
-
-        this.balance = balance - ammount;
+        this.balance -= ammount;
     }
 
     public Integer getNumber() {
