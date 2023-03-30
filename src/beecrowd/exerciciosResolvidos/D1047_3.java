@@ -1,6 +1,5 @@
 package beecrowd.exerciciosResolvidos;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
@@ -19,11 +18,9 @@ class JogoM extends Hora{
 
 
     public JogoM() {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         Scanner sc = new Scanner(System.in);
         start = new Hora(sc.nextInt(), sc.nextInt()).getDate();
         end = new Hora(sc.nextInt(), sc.nextInt()).getDate();
-
         duration();
     }
 
@@ -57,7 +54,6 @@ class Hora{
         Calendar cal = Calendar.getInstance();
         cal.set(Calendar.HOUR_OF_DAY, hora);
         cal.set(Calendar.MINUTE, minito);
-
         return cal.getTime();
     }
 
