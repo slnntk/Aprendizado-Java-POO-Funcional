@@ -1,4 +1,4 @@
-package beecrowd.exerciciosResolvidos;
+/*package beecrowd.exerciciosResolvidos;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -116,4 +116,4 @@ class Ratos extends Animal{
     public void setQtdRatos(int qtdRatos) {
         this.qtdRatos = qtdRatos;
     }
-}
+}*/

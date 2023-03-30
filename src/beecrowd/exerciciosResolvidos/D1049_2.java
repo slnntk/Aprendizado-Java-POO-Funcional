@@ -7,111 +7,134 @@ public class D1049_2 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-
-        Reino reino = new Reino(sc);
-        Filo filo = new Filo(sc, reino);
-        Classe classe = new Classe(sc, filo);
-        Ordem ordem = new Ordem(sc, classe);
-        Genero genero = new Genero(sc, ordem);
-
-        System.out.println(genero.getNome());
+        new Pesquisadora();
     }
 }
 
-class Reino {
-    private String nome;
+class Pesquisadora{
 
-    public Reino(Scanner sc) {
-        this.nome = sc.next();
+    public Pesquisadora() {
+        Scanner sc = new Scanner(System.in);
+        dadosConhecidos(sc);
     }
-
-    public String getNome() {
-        return nome;
-    }
-}
-
-class Filo {
-    private String nome;
-
-    public Filo(Scanner sc, Reino reino) {
-        String input = sc.next();
-        if (reino.getNome().equalsIgnoreCase("vertebrado")) {
-            if (input.equalsIgnoreCase("ave")) {
-                this.nome = "ave";
-            } else {
-                this.nome = "mamifero";
-            }
-        } else {
-            if (input.equalsIgnoreCase("inseto")) {
-                this.nome = "inseto";
-            } else {
-                this.nome = "anelideo";
-            }
+    public void dadosConhecidos(Scanner sc){
+        String[] vetor = new String[3];
+        for (int i = 0; i < 3; i++) {
+            vetor[i] = sc.next();
         }
+        animalConhecido(vetor);
     }
 
-    public String getNome() {
-        return nome;
+    public void animalConhecido(String[] vetor){
+        Animal animal = AnimalFactory.getAnimal(vetor);
+        System.out.println(animal.getNome());
     }
 }
 
-class Classe {
-    private String nome;
+abstract class Animal {
 
-    public Classe(Scanner sc, Filo filo) {
-        String input = sc.next();
-        if (filo.getNome().equalsIgnoreCase("ave")) {
-            if (input.equalsIgnoreCase("carnivoro")) {
-                this.nome = "aguia";
+    private String nome;
+    abstract String getNome();
+}
+
+class AnimalFactory {
+    public static Animal getAnimal(String[] vetor) {
+
+        if (vetor[0].equalsIgnoreCase("vertebrado")) {
+            if (vetor[1].equalsIgnoreCase("ave")) {
+                if (vetor[2].equalsIgnoreCase("carnivoro")) {
+                    return new Aguia();
+                } else {
+                    return new Pomba();
+                }
             } else {
-                this.nome = "pomba";
+                if (vetor[2].equalsIgnoreCase("onivoro")) {
+                    return new Homem();
+                } else {
+                    return new Vaca();
+                }
+
             }
-        } else if (filo.getNome().equalsIgnoreCase("mamifero")) {
-            if (input.equalsIgnoreCase("onivoro")) {
-                this.nome = "homem";
-            } else {
-                this.nome = "vaca";
-            }
-        } else if (filo.getNome().equalsIgnoreCase("inseto")) {
-            if (input.equalsIgnoreCase("hematofago")) {
-                this.nome = "pulga";
-            } else {
-                this.nome = "lagarta";
-            }
+
         } else {
-            if (input.equalsIgnoreCase("onivoro")) {
-                this.nome = "minhoca";
+            if (vetor[1].equalsIgnoreCase("inseto")) {
+                if (vetor[2].equalsIgnoreCase("hematofago")) {
+                    return new Pulga();
+                } else {
+                    return new Lagarta();
+                }
             } else {
-                this.nome = "sanguessuga";
+                if (vetor[2].equalsIgnoreCase("onivoro")) {
+                    return new Minhoca();
+                } else {
+                    return new Sanguessuga();
+                }
+
             }
+
         }
-    }
 
-    public String getNome() {
-        return nome;
     }
 }
 
-class Ordem {
-    private String nome;
+class Aguia extends Animal{
 
-    public Ordem(Scanner sc, Classe classe) {
-        this.nome = classe.getNome();
-    }
-
-    public String getNome() {
-        return nome;
+    @Override
+    String getNome() {
+        return null;
     }
 }
 
-class Genero {
-    private String nome;
+class Pomba extends Animal{
 
-    public Genero(Scanner sc, Ordem ordem) {
-        this.nome = ordem.getNome();
-    }
-
-    public String getNome() {
-        return nome;
+    @Override
+    String getNome() {
+        return "pomba";
     }
 }
+class Homem extends Animal{
+
+    @Override
+    String getNome() {
+        return "homem";
+    }
+}
+
+class Vaca extends Animal{
+
+    @Override
+    String getNome() {
+        return "vaca";
+    }
+}
+class Pulga extends Animal{
+
+    @Override
+    String getNome() {
+        return "pulga";
+    }
+}
+class Lagarta extends Animal{
+
+    @Override
+    String getNome() {
+        return "lagarta";
+    }
+}
+
+class Minhoca extends Animal{
+
+    @Override
+    String getNome() {
+        return "minhoca";
+    }
+}
+
+class Sanguessuga extends Animal{
+
+    @Override
+    String getNome() {
+        return "sanguessuga";
+    }
+}
+
