@@ -96,7 +96,6 @@ class Ordem {
     private String nome;
 
     public Ordem(Scanner sc, Classe classe) {
-        sc.next(); // descarta entrada desnecessária
         this.nome = classe.getNome();
     }
 
@@ -109,7 +108,6 @@ class Genero {
     private String nome;
 
     public Genero(Scanner sc, Ordem ordem) {
-        sc.next(); // descarta entrada desnecessária
         this.nome = ordem.getNome();
     }
 

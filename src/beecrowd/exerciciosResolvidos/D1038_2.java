@@ -24,11 +24,16 @@ class Caixa{
 
     public Caixa() {
         Scanner sc = new Scanner(System.in);
-        System.out.printf("Total: R$ %.2f%n", Buy(sc.nextInt(), sc.nextInt()));
+        double buy = Buy(sc.nextInt(), sc.nextInt());
+        relatorioDoValor(buy);
+    }
+
+    public void relatorioDoValor(double valor){
+        System.out.printf("Total: R$ %.2f%n", valor);
     }
 
     public double Buy(int codigo, int quantidade){
-        Lanche lanche = new Lanche(productList.get(codigo-1).getCodigo(), productList.get(codigo-1).getNome(), productList.get(codigo-1).getPreco(), quantidade);
+        Lanche lanche = new Lanche(productList.get(codigo-1), quantidade);
         return lanche.getPreco() * lanche.getQuantidade();
     }
 
@@ -37,8 +42,8 @@ class Caixa{
 class Lanche extends Product{
 
     private int quantidade;
-    public Lanche(int codigo, String nome, Double preco, int quantidade) {
-        super(codigo, nome, preco);
+    public Lanche(Product product, int quantidade) {
+        super(product.getCodigo(), product.getNome(), product.getPreco());
         this.quantidade = quantidade;
     }
 
