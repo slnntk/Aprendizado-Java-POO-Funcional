@@ -81,7 +81,7 @@ class Aguia extends Animal{
 
     @Override
     String getNome() {
-        return null;
+        return "aguia";
     }
 }
 

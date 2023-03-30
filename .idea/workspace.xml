@@ -46,48 +46,48 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.D1049_2">
-    <configuration name="D1038_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1038_2" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D1038_2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1038_2" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D1038_2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1038_2" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.D1049_2 (3)">
     <configuration name="D1038_2 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1038_2" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D1049_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D1049_2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D1049_2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D1049_2 (3)" />
+        <item itemvalue="Application.D1049_2 (2)" />
+        <item itemvalue="Application.D1049_2 (1)" />
         <item itemvalue="Application.D1049_2" />
         <item itemvalue="Application.D1038_2 (4)" />
-        <item itemvalue="Application.D1038_2 (3)" />
-        <item itemvalue="Application.D1038_2 (2)" />
-        <item itemvalue="Application.D1038_2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680009964834</updated>
       <workItem from="1680009966426" duration="588000" />
-      <workItem from="1680189245542" duration="6258000" />
+      <workItem from="1680189245542" duration="6558000" />
     </task>
     <servers />
   </component>
