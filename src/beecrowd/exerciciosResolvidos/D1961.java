@@ -12,15 +12,17 @@ class PulaSapo{
 
     public PulaSapo() {
         Scanner sc = new Scanner(System.in);
-        Sapo s = new Sapo(sc.nextInt(), sc);
-        gameFinish(pularCanos(s.getSaltoMax(), sc));
+        Sapo s = new Sapo(sc.nextInt());
+        int n = sc.nextInt();
+        result(gameFinish(pularCanos(s.getSaltoMax(), sc, n)));
+        sc.close();
     }
 
     public void result(String result){
         System.out.println(result);
     }
 
-    public void gameFinish(boolean jumping){
+    public String gameFinish(boolean jumping){
         String temp;
         if (jumping){
             temp = "YOU WIN";
@@ -28,33 +30,29 @@ class PulaSapo{
         else{
             temp = "GAME OVER";
         }
-        result(temp);
+        return temp;
     }
 
-    public boolean pularCanos(int puloSapo, Scanner sc){
-        int n = sc.nextInt();
+    public boolean pularCanos(int puloSapo, Scanner sc, int n){
         boolean jumping = true;
-        Cano anterior = new Cano(0);
-        for (int i = 0;i < n;i++){
+        Cano anterior = new Cano(sc.nextInt());
+        for (int i = 1;i < n;i++){
             Cano c = new Cano(sc.nextInt());
-            if (!canJump(c.getAltura(), puloSapo, anterior.getAltura())){
+            if (!canJump(anterior.getAltura(), c.getAltura(), puloSapo)){
                 jumping = false;
-            }
-            else{
-                jumping = true;
+                break;
             }
             anterior = c;
         }
         return jumping;
     }
 
-
-    public boolean canJump(int cano, int sapo, int anterior){
-        if (Math.abs(cano - anterior) > sapo){
-            return false;
+    public boolean canJump(int anterior, int cano, int puloSapo){
+        if (Math.abs(cano - anterior) <= puloSapo){
+            return true;
         }
         else{
-            return true;
+            return false;
         }
     }
 
@@ -64,7 +62,7 @@ class Sapo{
 
     private int saltoMax;
 
-    public Sapo(int saltoMax, Scanner sc) {
+    public Sapo(int saltoMax) {
         this.saltoMax = saltoMax;
     }
 
@@ -77,6 +75,9 @@ class Sapo{
 class Cano{
 
     private int altura;
+
+    public Cano() {
+    }
 
     public Cano(int altura) {
         this.altura = altura;
