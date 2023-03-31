@@ -37,16 +37,17 @@ class PulaSapo{
         Cano anterior = new Cano(0);
         for (int i = 0;i < n;i++){
             Cano c = new Cano(sc.nextInt());
-            if (canJump(c.getAltura(), puloSapo, anterior.getAltura())){
-                jumping = true;
+            if (!canJump(c.getAltura(), puloSapo, anterior.getAltura())){
+                jumping = false;
             }
             else{
-                jumping = false;
+                jumping = true;
             }
             anterior = c;
         }
         return jumping;
     }
+
 
     public boolean canJump(int cano, int sapo, int anterior){
         if (Math.abs(cano - anterior) > sapo){
