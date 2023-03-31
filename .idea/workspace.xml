@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1961.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1049_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1049_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1094.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D1094.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.D1049_2 (3)">
-    <configuration name="D1038_2 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1038_2" />
+}]]></component>
+  <component name="RunManager" selected="Application.D1961 (4)">
+    <configuration name="D1961 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1049_2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
+    <configuration name="D1961 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1049_2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
+    <configuration name="D1961 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1049_2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
+    <configuration name="D1961 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1049_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1049_2" />
+    <configuration name="D1961" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D1049_2 (3)" />
-        <item itemvalue="Application.D1049_2 (2)" />
-        <item itemvalue="Application.D1049_2 (1)" />
-        <item itemvalue="Application.D1049_2" />
-        <item itemvalue="Application.D1038_2 (4)" />
+        <item itemvalue="Application.D1961 (4)" />
+        <item itemvalue="Application.D1961 (3)" />
+        <item itemvalue="Application.D1961 (2)" />
+        <item itemvalue="Application.D1961 (1)" />
+        <item itemvalue="Application.D1961" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +132,7 @@
       <updated>1680009964834</updated>
       <workItem from="1680009966426" duration="588000" />
       <workItem from="1680189245542" duration="6558000" />
+      <workItem from="1680261579876" duration="1427000" />
     </task>
     <servers />
   </component>
