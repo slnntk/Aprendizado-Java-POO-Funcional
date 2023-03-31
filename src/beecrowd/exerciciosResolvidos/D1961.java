@@ -21,7 +21,7 @@ class PulaSapo{
     }
 
     public void gameFinish(boolean jumping){
-        String temp = "";
+        String temp;
         if (jumping){
             temp = "YOU WIN";
         }
@@ -34,24 +34,26 @@ class PulaSapo{
     public boolean pularCanos(int puloSapo, Scanner sc){
         int n = sc.nextInt();
         boolean jumping = true;
+        Cano anterior = new Cano(0);
         for (int i = 0;i < n;i++){
             Cano c = new Cano(sc.nextInt());
-            if (canJump(c.getAltura(), puloSapo)){
+            if (canJump(c.getAltura(), puloSapo, anterior.getAltura())){
                 jumping = true;
             }
             else{
                 jumping = false;
             }
+            anterior = c;
         }
         return jumping;
     }
 
-    public boolean canJump(int cano, int sapo){
-        if (sapo >= cano && cano > 1){
-            return true;
+    public boolean canJump(int cano, int sapo, int anterior){
+        if (Math.abs(cano - anterior) > sapo){
+            return false;
         }
         else{
-            return false;
+            return true;
         }
     }
 
