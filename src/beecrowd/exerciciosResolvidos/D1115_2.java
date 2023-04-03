@@ -69,8 +69,6 @@ class Quadrante{
             this.nomeQuadrante = "terceiro";
         } else if (x > 0 && y < 0) {
             this.nomeQuadrante = "quarto";
-        } else {
-            this.nomeQuadrante = "origem";
         }
     }
 
