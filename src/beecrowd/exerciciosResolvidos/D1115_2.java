@@ -1,5 +1,6 @@
 package beecrowd.exerciciosResolvidos;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class D1115_2 {
@@ -16,8 +17,8 @@ class Coordenada extends Ponto{
 
     public Coordenada(Scanner sc) {
         super();
-        this.X  = new Ponto(sc.nextInt());
-        this.Y  = new Ponto(sc.nextInt());
+        this.X  = new Ponto("X", sc.nextInt());
+        this.Y  = new Ponto("Y", sc.nextInt());
         System.out.println(getQuadrante());
     }
 
@@ -26,48 +27,55 @@ class Coordenada extends Ponto{
     }
 
     public String getQuadrante() {
-        return new Quadrante(X.getNumberPoint(), Y.getNumberPoint()).getNomeQuadrante();
+        return new Quadrante(X, Y).getNomeQuadrante();
     }
 
 }
 
 class Ponto{
 
+    private Eixo eixo;
     private int numberPoint;
 
     public Ponto() {
 
     }
 
-    public Ponto(int numberPoint) {
+    public Ponto(String eixo, int numberPoint) {
         this.numberPoint = numberPoint;
+        this.eixo = new Eixo(eixo);
     }
 
     public int getNumberPoint() {
         return numberPoint;
     }
+
+    public String getEixo() {
+        return eixo.getEixo();
+    }
+
 }
 
 class Quadrante{
 
     private String nomeQuadrante;
-    private int x;
-    private int y;
+    private Ponto x;
+    private Ponto y;
 
-    public Quadrante(int x, int y) {
+    public Quadrante(Ponto x, Ponto y) {
         this.x = x;
         this.y = y;
         searchQuadrante();
     }
 
     public void searchQuadrante() {
-        if (x > 0 && y > 0) {
+        if (x.getNumberPoint() > 0 && y.getNumberPoint() > 0) {
             this.nomeQuadrante = "primeiro";
-        } else if (x < 0 && y > 0) {
+        } else if (x.getNumberPoint() < 0 && y.getNumberPoint() > 0) {
             this.nomeQuadrante = "segundo";
-        } else if (x < 0 && y < 0) {
+        } else if (x.getNumberPoint() < 0 && y.getNumberPoint() < 0) {
             this.nomeQuadrante = "terceiro";
-        } else if (x > 0 && y < 0) {
+        } else if (x.getNumberPoint() > 0 && y.getNumberPoint() < 0) {
             this.nomeQuadrante = "quarto";
         } else {
             this.nomeQuadrante = "origem";
@@ -78,6 +86,24 @@ class Quadrante{
         return nomeQuadrante;
     }
 }
+
+class Eixo{
+
+    private String eixo;
+
+    public Eixo(String eixo) {
+        this.eixo = eixo;
+    }
+
+    public String getEixo() {
+        return eixo;
+    }
+
+    public void setEixo(String eixo) {
+        this.eixo = eixo;
+    }
+}
+
 
 
 
