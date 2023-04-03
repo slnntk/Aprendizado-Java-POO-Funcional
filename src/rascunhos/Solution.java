@@ -7,17 +7,18 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s1 = sc.next();
-        int i1 = sc.nextInt();
-        String s2 = sc.next();
-        int i2 = sc.nextInt();
-        String s3 = sc.next();
-        int i3 = sc.nextInt();
+        int n = sc.nextInt();
 
-        System.out.printf("================================%n" +
-                          "%s               %03d%n" +
-                          "%s               %03d%n" +
-                          "%s               %03d%n" +
-                          "================================%n", s1,i1,s2,i2,s3,i3);
+        for (int i = 0; i < n; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int nu = sc.nextInt();
+            int result = a;
+            for (int j = 0;j < nu;j++){
+                result += Math.pow(2, j)*b;
+                System.out.printf("%d ", result);
+            }
+            System.out.println();
+        }
     }
 }
