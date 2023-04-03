@@ -51,8 +51,8 @@ class Ponto{
 class Quadrante{
 
     private String nomeQuadrante;
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
     public Quadrante(int x, int y) {
         this.x = x;
