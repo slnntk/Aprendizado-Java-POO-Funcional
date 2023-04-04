@@ -1,25 +1,12 @@
 package beecrowd.exerciciosResolvidos;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class D1115_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        new FabricaDeQuadrantes(sc);
-    }
-}
-
-class FabricaDeQuadrantes{
-
-    public FabricaDeQuadrantes(Scanner sc) {
-        int X, Y;
-
-        do{
-            X = sc.nextInt();
-            Y = sc.nextInt();
-            new Coordenada(X, Y);
-        } while (X != 0 && Y != 0);
-        sc.close();
+        new Coordenada(sc);
     }
 }
 
@@ -28,66 +15,95 @@ class Coordenada extends Ponto{
     private final Ponto X;
     private final Ponto Y;
 
-    public Coordenada(int X, int Y) {
+    public Coordenada(Scanner sc) {
         super();
-        this.X  = new Ponto(X);
-        this.Y  = new Ponto(Y);
-        getQuadrante();
+        this.X  = new Ponto("X", sc.nextInt());
+        this.Y  = new Ponto("Y", sc.nextInt());
+        System.out.println(getQuadrante());
     }
 
     public Ponto getX() {
         return X;
     }
 
-    public void getQuadrante() {
-        new Quadrante(X.getNumberPoint(), Y.getNumberPoint());
+    public String getQuadrante() {
+        return new Quadrante(X, Y).getNomeQuadrante();
     }
 
 }
 
 class Ponto{
 
+    private Eixo eixo;
     private int numberPoint;
 
     public Ponto() {
 
     }
 
-    public Ponto(int numberPoint) {
+    public Ponto(String eixo, int numberPoint) {
         this.numberPoint = numberPoint;
+        this.eixo = new Eixo(eixo);
     }
 
     public int getNumberPoint() {
         return numberPoint;
     }
+
+    public String getEixo() {
+        return eixo.getEixo();
+    }
+
 }
 
 class Quadrante{
 
-    private final int X;
-    private final int Y;
+    private String nomeQuadrante;
+    private Ponto x;
+    private Ponto y;
 
-    public Quadrante(int x, int y) {
-        this.X = x;
-        this.Y = y;
-        getNomeQuadrante();
+    public Quadrante(Ponto x, Ponto y) {
+        this.x = x;
+        this.y = y;
+        searchQuadrante();
     }
 
-    public void getNomeQuadrante() {
-        if (X > 0 & Y > 0){
-            System.out.println("primeiro");
+    public void searchQuadrante() {
+        if (x.getNumberPoint() > 0 && y.getNumberPoint() > 0) {
+            this.nomeQuadrante = "primeiro";
+        } else if (x.getNumberPoint() < 0 && y.getNumberPoint() > 0) {
+            this.nomeQuadrante = "segundo";
+        } else if (x.getNumberPoint() < 0 && y.getNumberPoint() < 0) {
+            this.nomeQuadrante = "terceiro";
+        } else if (x.getNumberPoint() > 0 && y.getNumberPoint() < 0) {
+            this.nomeQuadrante = "quarto";
+        } else {
+            this.nomeQuadrante = "origem";
         }
-        else if (X < 0 & Y > 0){
-            System.out.println("segundo");
-        }
-        else if (X < 0 & Y < 0){
-            System.out.println("terceiro");
-        }
-        else if (X > 0 & Y < 0){
-            System.out.println("quarto");
-        }
+    }
+
+    public String getNomeQuadrante() {
+        return nomeQuadrante;
     }
 }
+
+class Eixo{
+
+    private String eixo;
+
+    public Eixo(String eixo) {
+        this.eixo = eixo;
+    }
+
+    public String getEixo() {
+        return eixo;
+    }
+
+    public void setEixo(String eixo) {
+        this.eixo = eixo;
+    }
+}
+
 
 
 

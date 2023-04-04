@@ -2,7 +2,7 @@ package rascunhos;
 
 import java.util.Scanner;
 
-public class D1061 {
+public class D1961 {
     public static void main(String[] args) {
         new Jogo();
     }
@@ -11,10 +11,26 @@ public class D1061 {
 class Jogo{
     public Jogo() {
         Scanner sc = new Scanner(System.in);
-        Sapo s = new Sapo(sc.nextInt());
+        ObjetoDoJogo s = new Sapo(sc.nextInt());
         int n = sc.nextInt();
-        result(gameFinish(s.pularCanos(sc, n)));
+        result(gameFinish(pularCanos(sc, n, (Sapo) s)));
         sc.close();
+    }
+
+    public boolean pularCanos(Scanner sc, int n, Sapo s) {
+        ObjetoDoJogo anterior = criarCano(sc.nextInt());
+        for (int i = 1; i < n; i++) {
+            ObjetoDoJogo atual = criarCano(sc.nextInt());
+            if (!s.canJump(anterior.getAltura(), atual.getAltura())) {
+                return false;
+            }
+            anterior = atual;
+        }
+        return true;
+    }
+
+    public ObjetoDoJogo criarCano(int altura){
+        return new Cano(altura);
     }
 
     public void result(String result){
@@ -41,6 +57,7 @@ class ObjetoDoJogo {
         this.altura = altura;
     }
 
+
     public int getAltura() {
         return altura;
     }
@@ -56,27 +73,8 @@ class Sapo extends ObjetoDoJogo {
         this.saltoMax = saltoMax;
     }
 
-    public boolean pularCanos(Scanner sc, int n){
-        boolean jumping = true;
-        Cano anterior = new Cano(sc.nextInt());
-        for (int i = 1;i < n;i++){
-            Cano c = new Cano(sc.nextInt());
-            if (!canJump(anterior.getAltura(), c.getAltura())){
-                jumping = false;
-                break;
-            }
-            anterior = c;
-        }
-        return jumping;
-    }
-
-    public boolean canJump(int anterior, int cano){
-        if (Math.abs(cano - anterior) <= saltoMax){
-            return true;
-        }
-        else{
-            return false;
-        }
+    public boolean canJump(int anterior, int cano) {
+        return Math.abs(cano - anterior) <= saltoMax;
     }
 
     public int getSaltoMax() {
@@ -89,5 +87,3 @@ class Cano extends ObjetoDoJogo {
         super(altura);
     }
 }
-
-
