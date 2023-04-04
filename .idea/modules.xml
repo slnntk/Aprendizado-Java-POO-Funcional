@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/ARRAY e MATRIZ.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/ARRAY e MATRIZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/Arquivos.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/Arquivos.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/CLASSES e METODOS.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/CLASSES e METODOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/rascunhos/CONDUITE/CONDUITE.iml" filepath="$PROJECT_DIR$/src/rascunhos/CONDUITE/CONDUITE.iml" />
