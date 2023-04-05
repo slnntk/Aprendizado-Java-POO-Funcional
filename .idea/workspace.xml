@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="" />
+    <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/src/arquivosFileReaderBufferedWithResources/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/src/arquivosFileReaderBuffered/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/src/arquivosFileReaderBufferedWithoutResources/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.D1961 (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="D1961 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
       <module name="JAVA2023" />
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1961" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
-      <module name="JAVA2023" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arquivosFileReaderBufferedWithResources.Main" />
+      <module name="Arquivos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
+          <option name="PATTERN" value="arquivosFileReaderBufferedWithResources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.D1961 (4)" />
         <item itemvalue="Application.D1961 (3)" />
         <item itemvalue="Application.D1961 (2)" />
         <item itemvalue="Application.D1961 (1)" />
-        <item itemvalue="Application.D1961" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +134,7 @@
       <workItem from="1680009966426" duration="588000" />
       <workItem from="1680189245542" duration="6558000" />
       <workItem from="1680261579876" duration="1427000" />
+      <workItem from="1680711653389" duration="807000" />
     </task>
     <servers />
   </component>
