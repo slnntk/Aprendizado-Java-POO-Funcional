@@ -3,14 +3,14 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Abstratos [CLASSES e METODOS]" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Arquivos [LISTAR, LER E ESCREVER]" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Conceitos [COMPOSICAO, HERANÇA E POLIMORFISMO]" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Date [TIPOS DE DATES E FORMATAÇÕES]" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Exceções [TRATAMENTO DE ERROS]" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Interface" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/Vetores [ARRAY e MATRIZ]" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Abstratos [CLASSES e METODOS]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Arquivos [LISTAR, LER E ESCREVER]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Conceitos [COMPOSICAO, HERANÇA E POLIMORFISMO]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Date [TIPOS DE DATES E FORMATAÇÕES]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exceções [TRATAMENTO DE ERROS]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vetores [ARRAY e MATRIZ]" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
