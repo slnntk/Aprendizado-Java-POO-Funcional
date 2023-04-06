@@ -1,7 +1,8 @@
-package interfaceExercicioAula.services;
+package src.interfaceExercicioAula.services;
 
-import interfaceExercicioAula.entities.CarRental;
-import interfaceExercicioAula.entities.Invoice;
+
+import src.interfaceExercicioAula.entities.CarRental;
+import src.interfaceExercicioAula.entities.Invoice;
 
 import java.time.Duration;
 

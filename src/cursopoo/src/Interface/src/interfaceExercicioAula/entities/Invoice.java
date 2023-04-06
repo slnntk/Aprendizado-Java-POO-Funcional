@@ -1,4 +1,4 @@
-package interfaceExercicioAula.entities;
+package src.interfaceExercicioAula.entities;
 
 public class Invoice {
 

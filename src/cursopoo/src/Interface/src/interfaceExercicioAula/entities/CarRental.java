@@ -1,4 +1,4 @@
-package interfaceExercicioAula.entities;
+package src.interfaceExercicioAula.entities;
 
 import java.sql.Time;
 import java.time.LocalDateTime;
@@ -6,14 +6,14 @@ import java.util.concurrent.TimeUnit;
 
 public class CarRental {
 
-    private Vehicle vehicle;
+    private interfaceExercicioAula.entities.Vehicle vehicle;
     private LocalDateTime start;
     private LocalDateTime finish;
     private Invoice invoice;
 
     public CarRental(){}
 
-    public CarRental(Vehicle vehicle, LocalDateTime start, LocalDateTime finish) {
+    public CarRental(interfaceExercicioAula.entities.Vehicle vehicle, LocalDateTime start, LocalDateTime finish) {
         this.vehicle = vehicle;
         this.start = start;
         this.finish = finish;
@@ -35,11 +35,11 @@ public class CarRental {
         this.finish = finish;
     }
 
-    public Vehicle getVehicle() {
+    public interfaceExercicioAula.entities.Vehicle getVehicle() {
         return vehicle;
     }
 
-    public void setVehicle(Vehicle vehicle) {
+    public void setVehicle(interfaceExercicioAula.entities.Vehicle vehicle) {
         this.vehicle = vehicle;
     }
 
