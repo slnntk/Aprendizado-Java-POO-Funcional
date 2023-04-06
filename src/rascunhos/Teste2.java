@@ -1,6 +1,8 @@
 package rascunhos;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Teste2 {
@@ -8,6 +10,7 @@ public class Teste2 {
         Scanner sc = new Scanner(System.in);
         String strPath = "D:\\testes\\TESTEINPUT.txt";
         File path = new File(strPath);
+        List<Product> productList = new ArrayList<>();
 
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))){
@@ -18,6 +21,7 @@ public class Teste2 {
             while (line != null){
                 String[] parameters = line.split(",");
                 Product product = new Product(parameters[0], Double.parseDouble(parameters[1]), Integer.parseInt(parameters[2]));
+                productList.add(product);
                 bw.write(product.getName() + ",");
                 bw.write(String.valueOf(product.getPrice()));
                 bw.newLine();
