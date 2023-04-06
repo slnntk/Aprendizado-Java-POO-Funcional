@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/ARRAY e MATRIZ.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Vetores/ARRAY e MATRIZ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/Arquivos.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Arquivos/Arquivos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/CLASSES e METODOS.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Abstratos/CLASSES e METODOS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/Vetores/ARRAY e MATRIZ.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/Vetores/ARRAY e MATRIZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/Arquivos/Arquivos.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/Arquivos/Arquivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/Abstratos/CLASSES e METODOS.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/Abstratos/CLASSES e METODOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/Conceitos/COMPOSICAO, HERANÇA E POLIMORFISMO.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/rascunhos/CONDUITE/CONDUITE.iml" filepath="$PROJECT_DIR$/src/rascunhos/CONDUITE/CONDUITE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/CURSOJAVA.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/CURSOJAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/CURSOJAVA.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/CURSOJAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/scr2/ESTRUTURADEDADOS/ESTRUTURADEDADOS.iml" filepath="$PROJECT_DIR$/scr2/ESTRUTURADEDADOS/ESTRUTURADEDADOS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/EXCECOES.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Exceções/EXCECOES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/Exceções/EXCECOES.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/Exceções/EXCECOES.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA2023.iml" filepath="$PROJECT_DIR$/JAVA2023.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO2/POLIMORFISMO2.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/POLIMORFISMO2/POLIMORFISMO2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/POLIMORFISMO2/POLIMORFISMO2.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/POLIMORFISMO2/POLIMORFISMO2.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/rascunhos/3037/TESTE.iml" filepath="$PROJECT_DIR$/src/rascunhos/3037/TESTE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Date/TIPOS DE DATES E FORMATAÇÕES.iml" filepath="$PROJECT_DIR$/src/cursopoo/CURSOJAVA/Date/TIPOS DE DATES E FORMATAÇÕES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/cursopoo/cursojava/Date/TIPOS DE DATES E FORMATAÇÕES.iml" filepath="$PROJECT_DIR$/src/cursopoo/cursojava/Date/TIPOS DE DATES E FORMATAÇÕES.iml" />
     </modules>
   </component>
 </project>
