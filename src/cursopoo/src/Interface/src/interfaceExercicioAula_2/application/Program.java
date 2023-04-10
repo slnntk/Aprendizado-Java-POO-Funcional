@@ -1,9 +1,11 @@
 package src.interfaceExercicioAula_2.application;
 
-import src.interfaceExercicioAula.entities.Vehicle;
-import src.interfaceExercicioAula.entities.CarRental;
-import src.interfaceExercicioAula.services.BrazilTaxService;
-import src.interfaceExercicioAula.services.RentalService;
+
+
+import src.interfaceExercicioAula_2.entities.CarRental;
+import src.interfaceExercicioAula_2.entities.Vehicle;
+import src.interfaceExercicioAula_2.services.BrazilTaxService;
+import src.interfaceExercicioAula_2.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -33,7 +35,7 @@ public class Program {
         Double priceDay = 130.0;System.out.println("Enter with day price: " + priceDay);
 
 
-        RentalService rentalService = new RentalService(new BrazilTaxService(), priceHour, priceDay);
+        RentalService rentalService = new RentalService(priceHour, priceDay, new BrazilTaxService());
         CarRental carRental = new CarRental(new Vehicle(model), withdrawDate, returnDate);
         rentalService.processInvoice(carRental);
 
@@ -43,7 +45,6 @@ public class Program {
         System.out.println("Imposto: " + carRental.getInvoice().getTax());
         System.out.println("Pagamento total: " + carRental.getInvoice().getTotalPayment());
     }
-
 }
 
 /*

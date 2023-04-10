@@ -6,7 +6,7 @@ public class BrazilTaxService implements TaxService {
 
     @Override
     public Double tax(Double amount) {
-        return (amount <= 100) ? 0.20 : 0.15;
+        return (amount <= 200) ? amount * 0.20 : amount * 0.15;
     }
 }
 
