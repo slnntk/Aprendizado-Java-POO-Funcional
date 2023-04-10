@@ -21,6 +21,8 @@ class Competicao{
         calcularNota(atletaList);
     }
 
+
+
     public void saltosDosAtletas(Scanner sc, int nCompetidores){
         for (int i = 0;i < nCompetidores;i++){
             String nome = sc.next();
