@@ -1,21 +1,12 @@
 package src.interfaceExercicioAula_2.services;
 
-public class BrazilTaxService {
+import src.interfaceExercicioAula_2.interfaces.TaxService;
 
-    private Double tax;
+public class BrazilTaxService implements TaxService {
 
-    public BrazilTaxService() {
-    }
-    public BrazilTaxService(Double tax) {
-        this.tax = tax;
-    }
-
-    public Double tax(Double amount){
+    @Override
+    public Double tax(Double amount) {
         return (amount <= 100) ? 0.20 : 0.15;
-    }
-
-    public Double getTax() {
-        return tax;
     }
 }
 
