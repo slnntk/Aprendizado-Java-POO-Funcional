@@ -1,21 +1,22 @@
-package src.interfaceExercicioAula.entities;
+package src.interfaceExercicioAula_2.entities;
 
 import java.time.LocalDateTime;
 
-
 public class CarRental {
 
-    private Vehicle vehicle;
     private LocalDateTime start;
     private LocalDateTime finish;
+    private Vehicle vehicle;
     private Invoice invoice;
 
-    public CarRental(){}
+    public CarRental() {
+    }
 
-    public CarRental(Vehicle vehicle, LocalDateTime start, LocalDateTime finish) {
-        this.vehicle = vehicle;
+    public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle, Invoice invoice) {
         this.start = start;
         this.finish = finish;
+        this.vehicle = vehicle;
+        this.invoice = invoice;
     }
 
     public LocalDateTime getStart() {

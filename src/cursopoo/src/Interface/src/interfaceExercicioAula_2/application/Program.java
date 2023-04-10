@@ -1,4 +1,4 @@
-package src.interfaceExercicioAula.application;
+package src.interfaceExercicioAula_2.application;
 
 import src.interfaceExercicioAula.entities.Vehicle;
 import src.interfaceExercicioAula.entities.CarRental;

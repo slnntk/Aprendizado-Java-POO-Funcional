@@ -1,5 +1,4 @@
-package src.interfaceExercicioAula.entities;
-
+package src.interfaceExercicioAula_2.entities;
 
 public class Vehicle {
 
