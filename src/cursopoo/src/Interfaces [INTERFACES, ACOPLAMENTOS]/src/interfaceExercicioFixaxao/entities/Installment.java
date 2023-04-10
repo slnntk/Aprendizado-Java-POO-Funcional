@@ -1,28 +1,30 @@
 package src.interfaceExercicioFixaxao.entities;
 
-import src.interfaceExercicioFixaxao.services.PayPalService;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Installment {
 
-    private LocalDateTime date;
+    private LocalDate date;
     private final double ammout;
 
-    public Installment(LocalDateTime date, double ammout) {
+    public Installment(LocalDate date, double ammout) {
         this.date = date;
-        this.ammout = new PayPalService().tax(ammout);
+        this.ammout = ammout;
     }
 
-    public LocalDateTime getDate() {
+    @Override
+    public String toString() {
+        return date.format(DateTimeFormatter.ofPattern("dd/MM/yyy")) +
+                " - " + ammout;
+    }
+
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDate(LocalDateTime date) {
+    public void setDate(LocalDate date) {
         this.date = date;
-    }
-
-    public double getAmmout() {
-        return ammout;
     }
 }

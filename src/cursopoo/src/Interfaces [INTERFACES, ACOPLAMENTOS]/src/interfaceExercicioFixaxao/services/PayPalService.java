@@ -1,18 +1,18 @@
 package src.interfaceExercicioFixaxao.services;
 
-import src.interfaceExercicioFixaxao.interfaces.PaymentService;
-
 public class PayPalService implements PaymentService {
 
-    private static int parcela = 0;
+    private static final double FEE_PERCENTAGE = 0.02;
+    private static final double MONTHLY_INTEREST = 0.01;
 
-    public PayPalService() {
-        parcela++;
+    @Override
+    public double paymentFee(double amount) {
+        return amount * (1 + FEE_PERCENTAGE);
     }
 
     @Override
-    public Double tax(Double amount) {
-        double temp = amount + amount * 0.01 * parcela;
-        return temp * (1 + 0.02);
+    public double interest(double amount, int months) {
+        return amount + amount * MONTHLY_INTEREST * months;
     }
+
 }
