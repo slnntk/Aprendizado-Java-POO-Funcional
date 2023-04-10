@@ -1,4 +1,4 @@
-package arquivosExercicioProposto;
+package src.arquivosExercicioProposto;
 
 import java.io.*;
 import java.util.Scanner;
@@ -18,7 +18,7 @@ public class Main {
             String line = br.readLine();
             while (line != null){
                 String[] parametros = line.split(",");
-                Product product = new Product(parametros[0], Double.parseDouble(parametros[1]), Integer.parseInt(parametros[2]));
+                arquivosExercicioProposto.Product product = new arquivosExercicioProposto.Product(parametros[0], Double.parseDouble(parametros[1]), Integer.parseInt(parametros[2]));
 
                 bw.write(product.getNome() + ",");
                 bw.write(Double.toString(product.getPrice()));
