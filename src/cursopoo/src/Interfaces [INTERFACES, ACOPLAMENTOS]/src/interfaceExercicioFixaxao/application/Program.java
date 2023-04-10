@@ -19,7 +19,7 @@ public class Program {
 
 
         System.out.print("Meses: ");
-        contract.invoiceListCreation(sc.nextInt()); // CRIAÇÃO DAS PRESTAÇÕES.
+        contract.processInvoice(sc.nextInt()); // CRIAÇÃO DAS PRESTAÇÕES.
         System.out.println();
         contract.portionContract(); //IMPRESSÃO DO VALOR DE VENCIMENTO E PREÇO DA PARCELA.
 
