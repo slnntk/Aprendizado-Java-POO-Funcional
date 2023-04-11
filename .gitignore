@@ -49,8 +49,8 @@ out/
 ## Eclipse
 ##############################
 .settings/
-bin/
-tmp/
+bin
+tmp
 .metadata
 .classpath
 .project
@@ -66,7 +66,7 @@ local.properties
 ## NetBeans
 ##############################
 nbproject/private/
-build/
+build
 nbbuild/
 dist/
 nbdist/
