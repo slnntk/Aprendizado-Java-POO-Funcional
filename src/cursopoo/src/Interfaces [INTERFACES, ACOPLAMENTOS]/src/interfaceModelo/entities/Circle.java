@@ -4,7 +4,7 @@ import src.interfaceModelo.enums.Color;
 
 public class Circle extends AbstractShape{
 
-    private double radius;
+    private final double radius;
 
     public Circle(Color color, double radius) {
         super(color);
