@@ -19,8 +19,13 @@ public interface PrintService {
     }
 
     default void print(){
-        System.out.printf("List: ");
-        System.out.println(getList());
+        System.out.print("[");
+        if (!getList().isEmpty()){
+            System.out.print(getList().get(0));
+        }
+        for (int i = 1;i < getList().size();i++){
+            System.out.printf(", " + getList().get(i));
+        }
+        System.out.print("]");
     }
-
 }
