@@ -13,7 +13,6 @@ public class Program {
     }
 
     public static void printList(List<?> list){
-
         for (Object object : list){
             System.out.println(object);
         }
