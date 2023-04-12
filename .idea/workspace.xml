@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/services/ContractServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/Interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/Interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/entities/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/entities/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/entities/Installment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/entities/Installment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/interfaces/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/services/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/services/PayPalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioFixaxao/services/PayPalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3039_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
