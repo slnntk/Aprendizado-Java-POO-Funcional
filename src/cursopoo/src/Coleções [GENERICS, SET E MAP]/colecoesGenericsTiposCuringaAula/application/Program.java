@@ -3,6 +3,8 @@ package colecoesGenericsTiposCuringaAula.application;
 import java.util.Arrays;
 import java.util.List;
 
+//supertipo de qualquer tipo de lista
+
 public class Program {
     public static void main(String[] args) {
 
