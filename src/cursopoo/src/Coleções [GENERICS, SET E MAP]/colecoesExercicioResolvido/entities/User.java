@@ -15,7 +15,7 @@ public class User implements Comparable<User>{
 
     @Override
     public String toString() {
-        return name + " " + instant;
+        return name;
     }
 
     @Override
