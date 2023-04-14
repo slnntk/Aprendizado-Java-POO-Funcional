@@ -1,4 +1,4 @@
-package colecoesSetAula.application;
+package colecoesSetAula;
 
 
 import java.util.Arrays;
