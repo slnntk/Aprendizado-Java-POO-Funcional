@@ -31,6 +31,8 @@ public class DATE_INSTANCIAÇÃO {
         LocalDateTime d05 = LocalDateTime.parse("2023-06-03T15:05:26");
         System.out.println(d05);
 
+
+
         Instant d06 = Instant.parse("2023-06-03T15:05:26Z");
         System.out.println(d06);
 
