@@ -1,6 +1,6 @@
 package colecoesSetExercicioAula.entities;
 
-public class Product {
+public class Product implements Comparable<Product>{
 
     private final String name;
     private final Double price;
@@ -8,6 +8,11 @@ public class Product {
     public Product(String name, Double price) {
         this.name = name;
         this.price = price;
+    }
+
+    @Override
+    public int compareTo(Product other) {
+        return getName().toUpperCase().compareTo(other.getName().toUpperCase());
     }
 
     @Override
@@ -39,5 +44,4 @@ public class Product {
     public Double getPrice() {
         return price;
     }
-
 }

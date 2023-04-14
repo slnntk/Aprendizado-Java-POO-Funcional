@@ -3,8 +3,8 @@ package colecoesSetExercicioAula.application;
 import colecoesSetExercicioAula.entities.Product;
 
 import java.io.*;
-import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Program {
     public static void main(String[] args) {
@@ -15,14 +15,11 @@ public class Program {
         Set<Product> set = readFile(path, in);
         writeFile(path, out, set);
 
-        Product product = new Product("Notebook", 1200.0);
-        System.out.println(set.contains(product));
-
     }
 
     public static Set<Product> readFile(String path, String in){
 
-        Set<Product> set = new HashSet<>();
+        Set<Product> set = new TreeSet<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path+in))){
             String line = br.readLine();
@@ -43,6 +40,7 @@ public class Program {
 
             for (Product product : productSet){
                 bw.write(product.toString());
+                System.out.println(product);
                 bw.newLine();
             }
         } catch (IOException | FileException e){
