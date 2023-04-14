@@ -1,12 +1,12 @@
 package colecoesSetAula.application;
 
-import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Program {
     public static void main(String[] args) {
 
-        Set<String> stringSet = new HashSet<>();
+        Set<String> stringSet = new TreeSet<>();
 
         stringSet.add("TV");
         stringSet.add("Tablet");
