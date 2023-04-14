@@ -1,4 +1,4 @@
-package colceosGenericsDelimitadoAula.entities;
+package coleceosGenericsDelimitadoAula.entities;
 
 public class Product implements Comparable<Product>{
 

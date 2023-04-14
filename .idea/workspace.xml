@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3039_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colceosGenericsDelimitadoAula/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/coleceosGenericsDelimitadoAula/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colceosGenericsDelimitadoAula/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/coleceosGenericsDelimitadoAula/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colceosGenericsDelimitadoAula/services/CalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/coleceosGenericsDelimitadoAula/services/CalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colceosGenericsDelimitadoAula/services/FileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/coleceosGenericsDelimitadoAula/services/FileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colecoesGenericsTiposCuringaAula/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colecoesGenericsTiposCuringaAula/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
       <recent name="D:\Users\cassi\Documents\Java []\Java\src\cursojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.src.interfaceExercicioAula.application.Program">
+  <component name="RunManager" selected="Application.colecoesGenericsTiposCuringaAula.application.Program">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -66,19 +72,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="estruturadedados.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D1961 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beecrowd.exerciciosResolvidos.D1961" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="colecoesGenericsTiposCuringaAula.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoesGenericsTiposCuringaAula.application.Program" />
+      <module name="CURSOJAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colecoesGenericsTiposCuringaAula.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="src.interfaceExercicioAula.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.interfaceExercicioAula.application.Program" />
       <module name="CURSOJAVA" />
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.colecoesGenericsTiposCuringaAula.application.Program" />
         <item itemvalue="Application.src.interfaceExercicioAula.application.Program" />
-        <item itemvalue="Application.Program" />
         <item itemvalue="Application.classesAbstratasAula.Main" />
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.D1961 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +171,8 @@
       <workItem from="1680711653389" duration="807000" />
       <workItem from="1680809438947" duration="26000" />
       <workItem from="1680809504024" duration="33000" />
+      <workItem from="1681485701404" duration="863000" />
+      <workItem from="1681488016024" duration="1204000" />
     </task>
     <servers />
   </component>

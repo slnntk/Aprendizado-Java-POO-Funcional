@@ -1,4 +1,4 @@
-package colceosGenericsDelimitadoAula.services;
+package coleceosGenericsDelimitadoAula.services;
 
 import java.util.List;
 

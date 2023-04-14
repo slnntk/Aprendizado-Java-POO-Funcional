@@ -1,4 +1,4 @@
-package colceosGenericsDelimitadoAula.services;
+package coleceosGenericsDelimitadoAula.services;
 
 import java.io.Serial;
 public class FileException extends RuntimeException{
