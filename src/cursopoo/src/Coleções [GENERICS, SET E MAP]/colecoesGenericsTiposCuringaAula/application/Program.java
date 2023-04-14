@@ -8,7 +8,9 @@ public class Program {
     public static void main(String[] args) {
 
         List<Integer> integerList = Arrays.asList(5, 2, 10);
+        List<String> stringList = Arrays.asList("Maria", "Alex", "Bob");
         printList(integerList);
+        printList(stringList);
 
     }
 
