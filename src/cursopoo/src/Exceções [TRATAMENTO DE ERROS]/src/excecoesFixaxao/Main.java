@@ -1,4 +1,4 @@
-package excecoesFixaxao;
+package src.excecoesFixaxao;
 
 import java.io.Serial;
 import java.util.*;
