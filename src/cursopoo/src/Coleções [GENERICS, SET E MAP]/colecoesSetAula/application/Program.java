@@ -6,15 +6,15 @@ import java.util.Set;
 public class Program {
     public static void main(String[] args) {
 
-        Set<String> stringSet = new LinkedHashSet<>();
+        Set<String> set = new LinkedHashSet<>();
 
-        stringSet.add("TV");
-        stringSet.add("Tablet");
-        stringSet.add("Notebook");
+        set.add("Tv");
+        set.add("Tablet");
+        set.add("Notebook");
 
-        System.out.println(stringSet.contains("Notebook"));
-
-        for (String string : stringSet){
+        /* Predicado: x tal que x alguma coisa */
+        set.removeIf(x -> x.charAt(0) == 'T');
+        for (String string : set){
             System.out.println(string);
         }
 
