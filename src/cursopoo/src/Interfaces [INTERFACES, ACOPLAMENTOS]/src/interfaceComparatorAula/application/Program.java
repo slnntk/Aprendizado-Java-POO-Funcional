@@ -1,6 +1,7 @@
 package src.interfaceComparatorAula.application;
 
 import src.interfaceComparatorAula.entities.Employee;
+import src.interfaceComparatorAula.entities.MyComparator;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,9 +11,9 @@ import java.util.List;
 public class Program {
     public static void main(String[] args) {
 
-        String path = "C:\\Users\\Administrator\\Downloads\\teste";
-        String inCsvArchive = "\\testetexto.txt";
-        String outCsvArchive = "\\saidateste2.txt";
+        String path = "D:\\Users\\cassi\\Downloads\\teste";
+        String inCsvArchive = "\\TESTEINPUT.txt";
+        String outCsvArchive = "\\TESTEout.txt";
 
         try{
             List<Employee> employeeList = EmployeeReader(path, inCsvArchive);
@@ -41,10 +42,10 @@ public class Program {
     }
 
     public static void EmployeeWriter(String path, String out, List<Employee> employeeList){
-        Collections.sort(employeeList);
+        employeeList.sort(new MyComparator());
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(path+out))){
             for (Employee employee : employeeList){
-                bw.write(employee.getName() + " " + employee.getLastname() + "," + employee.getSalary());
+                bw.write(employee.getName() + "," + employee.getSalary());
                 bw.newLine();
             }
         } catch (IOException e) {
