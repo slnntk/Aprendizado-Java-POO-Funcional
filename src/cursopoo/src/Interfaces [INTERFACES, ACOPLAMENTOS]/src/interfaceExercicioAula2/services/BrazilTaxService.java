@@ -1,6 +1,6 @@
-package src.interfaceExercicioAula_2.services;
+package src.interfaceExercicioAula2.services;
 
-import src.interfaceExercicioAula_2.interfaces.TaxService;
+import src.interfaceExercicioAula2.interfaces.TaxService;
 
 public class BrazilTaxService implements TaxService {
 

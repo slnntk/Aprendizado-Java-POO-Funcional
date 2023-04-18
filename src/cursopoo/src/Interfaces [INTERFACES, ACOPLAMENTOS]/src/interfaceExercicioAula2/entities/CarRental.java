@@ -1,4 +1,4 @@
-package src.interfaceExercicioAula_2.entities;
+package src.interfaceExercicioAula2.entities;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package src.interfaceExercicioAula_2.interfaces;
+package src.interfaceExercicioAula2.interfaces;
 
 public interface TaxService {
     

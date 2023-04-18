@@ -1,11 +1,11 @@
-package src.interfaceExercicioAula_2.application;
+package src.interfaceExercicioAula2.application;
 
 
 
-import src.interfaceExercicioAula_2.entities.CarRental;
-import src.interfaceExercicioAula_2.entities.Vehicle;
-import src.interfaceExercicioAula_2.services.BrazilTaxService;
-import src.interfaceExercicioAula_2.services.RentalService;
+import src.interfaceExercicioAula2.entities.CarRental;
+import src.interfaceExercicioAula2.entities.Vehicle;
+import src.interfaceExercicioAula2.services.BrazilTaxService;
+import src.interfaceExercicioAula2.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
