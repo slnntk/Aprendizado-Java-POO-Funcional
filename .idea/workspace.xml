@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colecoesMapAula/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colecoesMapExercicioFixacao/entities/Urna.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,7 +60,7 @@
       <recent name="D:\Users\cassi\Documents\Java []\Java\src\cursojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.progFuncionalPredicadoAula.application.Program">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -74,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoesMapAula.Main" />
-      <module name="CURSOJAVA" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
+      <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="colecoesMapAula.*" />
+          <option name="PATTERN" value="rascunhos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classesAbstratasAula.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classesAbstratasAula.Main" />
-      <module name="CURSOJAVA" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
+      <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classesAbstratasAula.*" />
+          <option name="PATTERN" value="rascunhos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="colecoesGenericsTiposCuringaAula.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoesGenericsTiposCuringaAula.application.Program" />
-      <module name="CURSOJAVA" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
+      <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="colecoesGenericsTiposCuringaAula.application.*" />
+          <option name="PATTERN" value="rascunhos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="colecoesHashCode_e_Equals.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoesHashCode_e_Equals.application.Program" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progFuncionalCostumerAula.application.Program" />
       <module name="CURSOJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="colecoesHashCode_e_Equals.application.*" />
+          <option name="PATTERN" value="progFuncionalCostumerAula.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.interfaceExercicioAula.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.interfaceExercicioAula.application.Program" />
+    <configuration name="progFuncionalPredicadoAula.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progFuncionalPredicadoAula.application.Program" />
       <module name="CURSOJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.interfaceExercicioAula.application.*" />
+          <option name="PATTERN" value="progFuncionalPredicadoAula.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.colecoesHashCode_e_Equals.application.Program" />
-        <item itemvalue="Application.colecoesGenericsTiposCuringaAula.application.Program" />
-        <item itemvalue="Application.src.interfaceExercicioAula.application.Program" />
-        <item itemvalue="Application.classesAbstratasAula.Main" />
+        <item itemvalue="Application.progFuncionalPredicadoAula.application.Program" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
