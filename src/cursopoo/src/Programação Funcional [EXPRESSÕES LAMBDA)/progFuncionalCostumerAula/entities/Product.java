@@ -9,6 +9,13 @@ public class Product {
         this.name = name;
         this.price = price;
     }
+    public static void staticPriceUpdate(Product p){
+        p.setPrice(p.getPrice() * 1.1);
+    }
+
+    public void nonStaticPriceUpdate(){
+        setPrice(getPrice() * 1.1);
+    }
 
     @Override
     public String toString() {

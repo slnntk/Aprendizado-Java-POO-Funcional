@@ -5,6 +5,7 @@ import progFuncionalCostumerAula.util.PriceUpdate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Program {
 
@@ -17,21 +18,12 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        /** Forma convencional
-            for (Product product : list){
-                new PriceUpdate().accept(product);
-        }**/
+        Consumer<Product> productConsumer = p -> p.setPrice(p.getPrice()*factor);;
+       list.forEach(Product::staticPriceUpdate);
 
-/*Forma nova->*/list.forEach(new PriceUpdate());
+       double factor = 1.1;
 
-        /** Forma convencional
-            for (Product product : list){
-                System.out.println(product);
-        }**/
-
-/*Forma nova->*/list.forEach(System.out::println);
-
-        list.forEach(new PriceUpdate());
+       list.forEach(System.out::println);
     }
 
 }
