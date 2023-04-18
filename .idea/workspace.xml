@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colecoesHashCode_e_Equals/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cursopoo/src/Coleções [GENERICS, SET E MAP]/colecoesMapAula/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="D:\Users\cassi\Documents\Java []\Java\src\cursojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.colecoesHashCode_e_Equals.application.Program">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaceExercicioAula.application.Program" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoesMapAula.Main" />
       <module name="CURSOJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaceExercicioAula.application.*" />
+          <option name="PATTERN" value="colecoesMapAula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.colecoesHashCode_e_Equals.application.Program" />
         <item itemvalue="Application.colecoesGenericsTiposCuringaAula.application.Program" />
         <item itemvalue="Application.src.interfaceExercicioAula.application.Program" />
         <item itemvalue="Application.classesAbstratasAula.Main" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +168,8 @@
       <workItem from="1680809504024" duration="33000" />
       <workItem from="1681485701404" duration="863000" />
       <workItem from="1681488016024" duration="1204000" />
+      <workItem from="1681742212678" duration="44000" />
+      <workItem from="1681821514659" duration="985000" />
     </task>
     <servers />
   </component>
