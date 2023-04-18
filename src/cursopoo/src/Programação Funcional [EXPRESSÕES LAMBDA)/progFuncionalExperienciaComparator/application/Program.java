@@ -15,8 +15,7 @@ public class Program {
         list.add(new Product("Tablet", 450.00));
 
         //Arrow function
-        Comparator<Product> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-        list.sort(comp);
+        list.sort((p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
         list.forEach(System.out::println);
     }
 
