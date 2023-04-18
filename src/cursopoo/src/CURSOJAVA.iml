@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces [INTERFACES, ACOPLAMENTOS]" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Coleções [GENERICS, SET E MAP]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Programação Funcional [EXPRESSÕES LAMBDA)" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
