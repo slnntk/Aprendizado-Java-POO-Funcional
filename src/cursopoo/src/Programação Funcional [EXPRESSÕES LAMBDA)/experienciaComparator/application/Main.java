@@ -16,12 +16,12 @@ public class Main {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        Comparator<Product> productComparator = new Comparator<Product>() {
-            @Override
-            public int compare(Product product, Product t1) {
-                return product.getName().toUpperCase().compareTo(t1.getName().toUpperCase());
-            }
+        Comparator<Product> comparator = (p1, p2) -> {
+            return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
         };
-        list.sort(productComparator);
+
+        list.sort(comparator);
+        list.forEach(System.out::println);
+
     }
 }
