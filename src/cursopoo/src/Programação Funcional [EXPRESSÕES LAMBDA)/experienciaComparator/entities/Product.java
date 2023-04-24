@@ -1,6 +1,6 @@
 package experienciaComparator.entities;
 
-public class Product implements Comparable<Product>{
+public class Product{
 
     private String name;
     private Double price;
@@ -24,10 +24,5 @@ public class Product implements Comparable<Product>{
 
     public Double getPrice() {
         return price;
-    }
-
-    @Override
-    public int compareTo(Product product) {
-        return getName().toUpperCase().compareTo(product.getName().toUpperCase());
     }
 }
