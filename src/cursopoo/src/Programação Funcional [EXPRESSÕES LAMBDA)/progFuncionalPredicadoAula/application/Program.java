@@ -6,6 +6,7 @@ import progFuncionalPredicadoAula.util.ProductPredicate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.function.Predicate;
 
 public class Program {
     public static void main(String[] args) {
