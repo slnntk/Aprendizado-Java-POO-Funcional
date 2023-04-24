@@ -1,93 +1,73 @@
 package beecrowd.exerciciosResolvidos;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class D1961 {
     public static void main(String[] args) {
-        new JogoDoSapo();
+        Game game = new Game();
     }
 }
 
-class JogoDoSapo{
-    public JogoDoSapo() {
-        Scanner sc = new Scanner(System.in);
-        Sapo s = new Sapo(sc.nextInt());
+class Game implements GameInterface{
+    Scanner sc = new Scanner(System.in);
+    private Sapo sapo;
+    List<Integer> integerList = new ArrayList<>();
+
+    public Game() {
+        int salto = sc.nextInt();
         int n = sc.nextInt();
-        result(gameFinish(s.pularCanos(sc, n)));
-        sc.close();
+        this.sapo = new Sapo(salto);
+        gameFinish(gaming(n));
     }
 
-    public void result(String result){
-        System.out.println(result);
+
+    public boolean jumping(int anterior, int atual) {
+        return Math.abs(atual - anterior) <= sapo.getSaltoMax();
     }
 
-    public String gameFinish(boolean jumping){
-        String temp;
-        if (jumping){
-            temp = "YOU WIN";
+    @Override
+    public boolean gaming(int n) {
+        int i;
+        for (i = 0;i < n;i++){
+            integerList.add(sc.nextInt());
         }
-        else{
-            temp = "GAME OVER";
+        i = 1;
+        boolean result = true;
+        while (i < n){
+            result = jumping(integerList.get(i), integerList.get(i-1));
+            if (!result){
+                return false;
+            }
+            i++;
         }
-        return temp;
+        return result;
     }
+    @Override
+    public void gameFinish(boolean jumping) {
+        System.out.println(jumping ? "YOU WIN" : "GAME OVER");
+    }
+}
+
+interface GameInterface{
+
+    boolean jumping(int anterior, int atual);
+    boolean gaming(int n);
+    public void gameFinish(boolean jumping);
 
 }
 
-class ObjetoDoJogo {
-    protected int altura;
 
-    public ObjetoDoJogo(int altura) {
-        this.altura = altura;
-    }
+class Sapo{
 
-    public int getAltura() {
-        return altura;
-    }
-
-}
-
-
-class Sapo extends ObjetoDoJogo {
-    private final int saltoMax;
+    private int saltoMax;
 
     public Sapo(int saltoMax) {
-        super(0);
         this.saltoMax = saltoMax;
-    }
-
-    public boolean pularCanos(Scanner sc, int n){
-        boolean jumping = true;
-        Cano anterior = new Cano(sc.nextInt());
-        for (int i = 1;i < n;i++){
-            Cano c = new Cano(sc.nextInt());
-            if (!canJump(anterior.getAltura(), c.getAltura())){
-                jumping = false;
-                break;
-            }
-            anterior = c;
-        }
-        return jumping;
-    }
-
-    public boolean canJump(int anterior, int cano){
-        if (Math.abs(cano - anterior) <= saltoMax){
-            return true;
-        }
-        else{
-            return false;
-        }
     }
 
     public int getSaltoMax() {
         return saltoMax;
     }
 }
-
-class Cano extends ObjetoDoJogo {
-    public Cano(int altura) {
-        super(altura);
-    }
-}
-
-
