@@ -17,12 +17,8 @@ public class Program {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        Function<Product, String> prod = p -> p.getName().toUpperCase();
-        //List<String> names = list.stream().map(prod).collect(Collectors.toList());
+        list.forEach(product -> product.getName() == T );
 
-
-        List<String> names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
-        names.forEach(System.out::println);
     }
 
 
