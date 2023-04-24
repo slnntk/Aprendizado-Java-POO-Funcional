@@ -16,11 +16,7 @@ public class Main {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        Comparator<Product> comparator = (p1, p2) -> {
-            return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-        };
-
-        list.sort(comparator);
+        list.sort((p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
         list.forEach(System.out::println);
 
     }
