@@ -1,4 +1,4 @@
-package progFuncionalPredicadoAula.entities;
+package progFuncionalAula.entities;
 
 public class Product {
 
