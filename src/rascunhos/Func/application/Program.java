@@ -27,9 +27,10 @@ public class Program {
             throw new FileException("Error in read the file");
         }
 
+
+        //importante se atentar a ordem de como ultilizar umm pipeline.
+
         Comparator<String> comparator = (x1, x2) -> x1.toUpperCase().compareTo(x2.toUpperCase());
-
-
         double avg = productSet.stream()
                     .map(x -> x.getPrice())
                     .reduce(0.0, (x, y) -> x+y/productSet.size());
