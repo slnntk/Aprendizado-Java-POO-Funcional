@@ -6,6 +6,7 @@ import rascunhos.Func.util.ProductService;
 import java.io.*;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Program {
     public static void main(String[] args) {
@@ -27,6 +28,8 @@ public class Program {
         } catch (FileException | IOException e) {
             throw new FileException("Error in read the file");
         }
+        Set<Product> productList = productSet.stream().filter(product -> product.getName().charAt(0) == 'T').collect(Collectors.toSet());
+        System.out.println(productList);
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(path+out))){
             double sumResult = ps.filteredSum(productSet, p -> p.getPrice() > 0);
             bw.write(String.valueOf(sumResult));
