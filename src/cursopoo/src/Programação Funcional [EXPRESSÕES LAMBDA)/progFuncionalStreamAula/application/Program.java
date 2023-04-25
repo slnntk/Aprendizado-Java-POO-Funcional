@@ -24,5 +24,10 @@ public class Program {
         // começando com 0, interate para todo x faça x+2, com limite de 100 elementos;
         Stream<Integer> st4 = Stream.iterate(0, x -> x + 2).limit(100);
         System.out.println(Arrays.toString(st4.toArray()));
+        //PRIMEIRO ELEMENTO COMEÇA COM UM ARRAY DE LONGE COMM OS ELEMENTOS 0LONG E 1LONG,
+        //A FUNÇÃO VAI SER UM NUMERO number que leva a um novo array de long, contendo
+        // 2 elementos que seria o elemento atual antigo, sendo agora o antigo e a soma do 2 anteriores;
+        Stream<Long> fibonacci = Stream.iterate(new Long[]{0L, 1L}, p -> new Long[] {p[1], p[0]+p[1]}).map(p -> p[0]);
+        System.out.println(Arrays.toString(fibonacci.limit(100).toArray()));
     }
 }
