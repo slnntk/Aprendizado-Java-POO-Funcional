@@ -16,7 +16,11 @@ public class Program {
 
         //pega o elemento inicial, e dps uma função que recebe 2 argumentos
         //x, y resultando na operação x+y;
-        int sum = list.stream().reduce(0, (x, y) -> x + y);
+        int sum = list.stream().reduce(0, (x, y) -> x+y);
+        //pega o elemento inicial (elemento neutro) e dps a função que vai receber 2 argumentos
+        // x, y resultando na operação x*y;
+        int mul = list.stream().reduce(1, (x,y) -> x*y);
         System.out.println(sum);
+        System.out.println(mul);
     }
 }
