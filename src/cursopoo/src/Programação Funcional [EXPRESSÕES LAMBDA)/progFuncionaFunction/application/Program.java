@@ -16,9 +16,8 @@ public class Program {
         list.add(new Product("HD Case", 80.90));
 
 
-        ProductService ps = new ProductService();
-        double sum = ps.filteredSumm(list, p -> p.getName().toUpperCase().charAt(0) == 'T');
-        System.out.println(sum);
-
+        List<String> nameList = list.stream().map(p -> p.getName().toUpperCase()).toList();
+        nameList.forEach(System.out::println);
+        
     }
 }
