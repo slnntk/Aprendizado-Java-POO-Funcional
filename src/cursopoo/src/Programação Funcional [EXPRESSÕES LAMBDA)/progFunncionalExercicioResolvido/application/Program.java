@@ -29,6 +29,8 @@ public class Program {
             throw new FileException("Read the file fail");
         }
 
+        //importante se atentar a ordem de como ultilizar umm pipeline.
+
         Comparator<String> comp = (s1, s2) -> s1.toUpperCase().compareTo(s2.toUpperCase());
 
         double avg = list.stream()
