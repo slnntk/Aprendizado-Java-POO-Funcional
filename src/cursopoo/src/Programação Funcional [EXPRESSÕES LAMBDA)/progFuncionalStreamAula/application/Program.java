@@ -29,5 +29,6 @@ public class Program {
         // 2 elementos que seria o elemento atual antigo, sendo agora o antigo e a soma do 2 anteriores;
         Stream<Long> fibonacci = Stream.iterate(new Long[]{0L, 1L}, p -> new Long[] {p[1], p[0]+p[1]}).map(p -> p[0]);
         System.out.println(Arrays.toString(fibonacci.limit(100).toArray()));
+        
     }
 }
