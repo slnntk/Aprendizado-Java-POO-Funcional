@@ -8,6 +8,7 @@ public class Program {
     public static void main(String[] args) {
 
         List<Integer> list = Arrays.asList(3, 4, 5, 10, 7);
+        System.out.println("original list: "+list);
 
         //vai pegar qlq x da minha lista e vai transformar em x * 10 por exemplo;
         Stream<Integer> st1 = list.stream().map(x -> x*10);
@@ -20,7 +21,13 @@ public class Program {
         //pega o elemento inicial (elemento neutro) e dps a função que vai receber 2 argumentos
         // x, y resultando na operação x*y;
         int mul = list.stream().reduce(1, (x,y) -> x*y);
-        System.out.println(sum);
-        System.out.println(mul);
+        System.out.println("sum: "+sum);
+        System.out.println("mul: "+mul);
+
+        List<Integer> newList = list.stream()
+                .filter(x -> x % 2 == 0).map(x -> x*10).toList();
+        System.out.println(newList);
+
+
     }
 }
