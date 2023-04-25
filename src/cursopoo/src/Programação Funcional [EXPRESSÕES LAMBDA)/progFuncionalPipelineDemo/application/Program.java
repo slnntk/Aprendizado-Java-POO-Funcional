@@ -13,7 +13,10 @@ public class Program {
         Stream<Integer> st1 = list.stream().map(x -> x*10);
         System.out.println(Arrays.toString(st1.toArray()));
 
-        
 
+        //pega o elemento inicial, e dps uma função que recebe 2 argumentos
+        //x, y resultando na operação x+y;
+        int sum = list.stream().reduce(0, (x, y) -> x + y);
+        System.out.println(sum);
     }
 }
