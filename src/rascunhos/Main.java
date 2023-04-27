@@ -1,49 +1,44 @@
 package rascunhos;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Triangulo t = new Triangulo(sc.nextDouble(), sc.nextDouble(), sc.nextDouble());
-        double[] ladosTriangulo = {t.getLado1(), t.getLado2(), t.getLado3()};
-        calcular(ladosTriangulo, t);
-    }
 
-    public static void calcular(double vetor[], Triangulo t){
-        if ((vetor[0] < (float)(vetor[1]+vetor[2])) && (vetor[1] < (float)(vetor[0]+vetor[2])) && (vetor[2] < (float)(vetor[1]+vetor[0]))){
-            System.out.printf("Perimetro = %.1f\n", t.perimetro(vetor));
-        }
-        else {
-            System.out.printf("Area = %.1f\n", t.area(vetor));
+        Triangulo t = new Triangulo();
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+
+        t.setLado1(sc.nextDouble());
+        t.setLado2(sc.nextDouble());
+        t.setLado3(sc.nextDouble());
+
+        if (t.getLado1() < t.getLado2() + t.getLado3() && t.getLado2() < t.getLado3() + t.getLado1() && t.getLado3() < t.getLado1() + t.getLado2()) {
+            t.perimetro();
+        } else {
+            t.area();
         }
     }
 }
+class Triangulo{
 
+    private double lado1;
+    private double lado2;
+    private double lado3;
 
-interface Forma{
-
-     double area(double[] vetor);
-     double perimetro(double[] vetor);
-
-}
-
-class Triangulo implements Forma{
-
-    private final double lado1;
-    private final double lado2;
-    private final double lado3;
-
-    public Triangulo(double lado1, double lado2, double lado3) {
-        this.lado1 = lado1;
-        this.lado2 = lado2;
-        this.lado3 = lado3;
+    public Triangulo() {
     }
 
-    @Override
-    public String toString() {
-        return String.valueOf(lado1 + "\n" + lado2 + "\n" + lado3);
+    public void area(){
+         double area = ((lado1 + lado2) * lado3)/2;
+        System.out.printf("Area = %.2f\n", area);
     }
+
+    public void perimetro(){
+        double perimetro = lado1 + lado2 + lado3;
+        System.out.printf("Perimetro = %.2f\n", perimetro);
+    }
+
 
     public double getLado1() {
         return lado1;
@@ -57,13 +52,16 @@ class Triangulo implements Forma{
         return lado3;
     }
 
-    @Override
-    public double area(double[] vetor) {
-        return ((vetor[0] + vetor[1]) * vetor[2]) / 2;
+    public void setLado1(double lado1) {
+        this.lado1 = lado1;
     }
 
-    @Override
-    public double perimetro(double[] vetor) {
-        return vetor[1] + vetor[2] + vetor[0];
+    public void setLado2(double lado2) {
+        this.lado2 = lado2;
+    }
+
+    public void setLado3(double lado3) {
+        this.lado3 = lado3;
     }
 }
+
