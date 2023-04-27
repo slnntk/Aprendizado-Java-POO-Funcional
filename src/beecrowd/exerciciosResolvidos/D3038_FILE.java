@@ -8,8 +8,8 @@ public class D3038_FILE {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        readFile rf = new readFile();
-        List<String> cart = rf.readFileMethod(path, pathIn);
+        readTxt rf = new readTxt();
+        List<String> cart = rf.readMethod(sc);
         Criptografia criptografia = new Criptografia();
         for (String s : criptografia.desCriptografar(cart)){
             System.out.print(s);
@@ -77,26 +77,26 @@ class Carta{
     }
 }
 
-class readFile implements readFileInterFace{
+class readTxt implements readFileInterFace{
 
     @Override
-    public List<String> readFileMethod(String path, String in) {
+    public List<String> readMethod(Scanner sc) {
         List<String> carta = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(path + in))) {
-            String line = br.readLine();
-            while (line != null) {
-                carta.add(line+"\n");
-                line = br.readLine();
+        String texto;
+        do {
+            try {
+                texto = sc.nextLine();
+                carta.add(texto + "\n");
+            } catch (NoSuchElementException e) {
+                texto = "";
             }
-        } catch (FileException | IOException e) {
-            throw new FileException("Error in found");
-        }
+        } while (!texto.isEmpty());
         return carta;
     }
 }
 
 interface readFileInterFace{
-    List<String> readFileMethod(String path, String in);
+    List<String> readMethod(Scanner sc);
 }
 
 class FileException extends RuntimeException{
