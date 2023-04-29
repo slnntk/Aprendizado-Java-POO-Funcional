@@ -11,10 +11,26 @@ Este repositório armazena a maioria dos meus códigos enquanto eu aprendo Java.
 # Cursopoo
 
 - Programação orientada a objetos
+
+        º Vetores, Matrizes, Arrays
+        º Composição, Herança e Polimorfismo
+        º Métodos e Classes Abstratas
+        º Interfaces
+        º Tratamento de Exceções 
+        º Coleções (Genericas,  Set, Map)
+        º Date
+        º Files
+
 - Programação funcional
+
+        º Comparators
+        º Functions
+        º Costumers
+        º Predicates
+        º Pipilines
+
 - Estruturas de dados
 - Algoritmos
 - Coleções
-
-
+         
 Sinta-se à vontade para explorar o código e sugerir melhorias.
