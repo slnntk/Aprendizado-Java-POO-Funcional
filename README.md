@@ -23,11 +23,11 @@ Este repositório armazena a maioria dos meus códigos enquanto eu aprendo Java.
 
 - Programação funcional
 
-        º Comparators
-        º Functions
-        º Costumers
-        º Predicates
-        º Pipilines
+        - Comparators
+        - Functions
+        - Costumers
+        - Predicates
+        - Pipilines
 
 - Estruturas de dados
 - Algoritmos
