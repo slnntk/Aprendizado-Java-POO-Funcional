@@ -12,14 +12,14 @@ Este repositório armazena a maioria dos meus códigos enquanto eu aprendo Java.
 
 - Programação orientada a objetos
 
-        º Vetores, Matrizes, Arrays
-        º Composição, Herança e Polimorfismo
-        º Métodos e Classes Abstratas
-        º Interfaces
-        º Tratamento de Exceções 
-        º Coleções (Genericas,  Set, Map)
-        º Date
-        º Files
+        - Vetores, Matrizes, Arrays
+        - Composição, Herança e Polimorfismo
+        - Métodos e Classes Abstratas
+        - Interfaces
+        - Tratamento de Exceções 
+        - Coleções (Genericas,  Set, Map)
+        - Date
+        - Files
 
 - Programação funcional
 
