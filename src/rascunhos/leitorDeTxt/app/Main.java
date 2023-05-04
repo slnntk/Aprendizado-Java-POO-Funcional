@@ -1,8 +1,9 @@
-package beecrowd.exerciciosResolvidos;
+package rascunhos.leitorDeTxt.app;
+
 import java.io.*;
 import java.util.*;
 
-public class D3038_FILE {
+public class Main {
     private static String path = "C:\\Users\\alunok11\\Desktop";
     private static String pathIn = "\\simuladoIn.txt";
 
@@ -31,8 +32,20 @@ class Criptografia implements CriptografiaInterface{
     }
 
     @Override
-    public String criptografar(List<String> cartaCriptografada) {
-        return null;
+    public List<String> criptografar(List<String> cartaCriptografada) {
+
+        List<String> list = new ArrayList<>();
+
+        for (String s : cartaCriptografada){
+            for (int i = 0;i < s.length();i++){
+                if (predefinido.containsKey(String.valueOf(s.charAt(i)))){
+                    list.add(predefinido.get(String.valueOf(s.charAt(i))));
+                }else{
+                    list.add(String.valueOf(s.charAt(i)));
+                }
+            }
+        }
+        return list;
     }
 
     @Override
@@ -55,7 +68,7 @@ class Criptografia implements CriptografiaInterface{
 }
 
 interface CriptografiaInterface{
-    String criptografar(List<String> cartaCriptografada);
+    List<String> criptografar(List<String> cartaCriptografada);
     List<String> desCriptografar(List<String> cartaCriptografada);
 }
 

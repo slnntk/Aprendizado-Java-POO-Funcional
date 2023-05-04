@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3038.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rascunhos/leitorDeTxt/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/CURSOJAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/CURSOJAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rascunhos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rascunhos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beecrowd/exerciciosResolvidos/D3038_FILE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rascunhos/leitorDeTxt/app/D3038_FILE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rascunhos/ConduiteRefracted/CONDUITE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rascunhos/ConduiteRefracted/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
       <recent name="D:\Users\cassi\Documents\Java []\Java\src\cursojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.rascunhos.ConduiteRefracted.src.Main">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -84,20 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rascunhos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
       <module name="JAVA2023" />
       <extension name="coverage">
@@ -111,11 +101,50 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
+      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.app.Main" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rascunhos.*" />
+          <option name="PATTERN" value="rascunhos.leitorDeTxt.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.ConduiteRefracted.src.Main1" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rascunhos.ConduiteRefracted.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.ConduiteRefracted.src.Main1" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rascunhos.ConduiteRefracted.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.ConduiteRefracted.src.Main1" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rascunhos.ConduiteRefracted.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +153,11 @@
       </method>
     </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progFuncionalCostumerAula.application.Program" />
+      <option name="MAIN_CLASS_NAME" value="progFuncionalExercicioFixacao.application.Program" />
       <module name="CURSOJAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progFuncionalCostumerAula.application.*" />
+          <option name="PATTERN" value="progFuncionalExercicioFixacao.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +165,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="progFuncionalPredicadoAula.application.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progFuncionalPredicadoAula.application.Program" />
-      <module name="CURSOJAVA" />
+    <configuration name="rascunhos.ConduiteRefracted.src.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.ConduiteRefracted.src.Main" />
+      <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progFuncionalPredicadoAula.application.*" />
+          <option name="PATTERN" value="rascunhos.ConduiteRefracted.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rascunhos.ConduiteRefracted.src.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.ConduiteRefracted.src.Main" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rascunhos.ConduiteRefracted.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.rascunhos.ConduiteRefracted.src.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.progFuncionalPredicadoAula.application.Program" />
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +228,8 @@
       <workItem from="1682700726868" duration="18000" />
       <workItem from="1682975194308" duration="1656000" />
       <workItem from="1682976872541" duration="3000" />
+      <workItem from="1683202222972" duration="1143000" />
+      <workItem from="1683212008369" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>
