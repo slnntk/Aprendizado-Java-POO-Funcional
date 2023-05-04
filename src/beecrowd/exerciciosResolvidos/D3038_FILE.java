@@ -1,4 +1,4 @@
-package rascunhos.leitorDeTxt.app;
+package beecrowd.exerciciosResolvidos;
 
 import java.io.*;
 import java.util.*;

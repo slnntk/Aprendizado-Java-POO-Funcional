@@ -71,7 +71,7 @@
       <recent name="D:\Users\cassi\Documents\Java []\Java\src\cursojava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.rascunhos.ConduiteRefracted.src.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.app.Main" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rascunhos.*" />
+          <option name="PATTERN" value="rascunhos.leitorDeTxt.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,7 +105,7 @@
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rascunhos.leitorDeTxt.app.*" />
+          <option name="PATTERN" value="beecrowd.exerciciosResolvidos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.rascunhos.ConduiteRefracted.src.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.rascunhos.ConduiteRefracted.src.Main" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>

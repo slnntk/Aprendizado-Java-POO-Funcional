@@ -12,14 +12,14 @@ public class Main {
         readTxt rf = new readTxt();
         List<String> cart = rf.readMethod(sc);
         Criptografia criptografia = new Criptografia();
-        for (String s : criptografia.desCriptografar(cart)){
+        for (String s : criptografia.criptografar(cart)){
             System.out.print(s);
         }
 
     }
 }
 
-class Criptografia implements CriptografiaInterface{
+class Criptografia implements CriptografiaInterface {
 
     Map<String, String> predefinido = new HashMap<>();
 
@@ -90,7 +90,7 @@ class Carta{
     }
 }
 
-class readTxt implements readFileInterFace{
+class readTxt implements readFileInterFace {
 
     @Override
     public List<String> readMethod(Scanner sc) {
