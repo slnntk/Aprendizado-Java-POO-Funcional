@@ -1,61 +1,100 @@
 package rascunhos;
 
-import java.util.Locale;
-import java.util.Scanner;
+import java.io.Serial;
+import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in);
+        FabricaDeCifra fb = new FabricaDeCifra();
+        fb.readCifra(sc);
+        fb.printCifra();
+    }
+}
 
-        Triangulo t = new Triangulo(sc.nextDouble(), sc.nextDouble(), sc.nextDouble());
+class FabricaDeCifra{
 
-        if (t.getLado1() < t.getLado2() + t.getLado3() && t.getLado2() < t.getLado3() + t.getLado1() && t.getLado3() < t.getLado1() + t.getLado2()) {
-            System.out.println("Perimetro = " + t.perimetro());
-        } else {
-            System.out.println("Area = " + t.area());
+    List<String> list = new ArrayList<>();
+    CriptografiaInterface ci = new Criptografia();
+
+    public FabricaDeCifra() {
+
+    }
+
+    public void readCifra(Scanner sc){
+        try{
+            int n = sc.nextInt();
+            sc.nextLine();
+            String line;
+            for (int i = 0;i < n;i++){
+                line = sc.nextLine();
+                ci.setFatorDeCriptografia(sc.nextInt());
+                sc.nextLine();
+                list.add(ci.desCriptografar(line));
+            }
+        } catch (InputMismatchException e){
+            throw new ExceptionPersonalizada("Erro na digitação dos valores." + e.getMessage());
         }
     }
+
+    public void printCifra(){
+        list.forEach(System.out::println);
+    }
+
 }
 
 
-class Triangulo implements Forma{
-    double lado1;
-    double lado2;
-    double lado3;
+class Criptografia implements CriptografiaInterface{
 
-    public Triangulo(double lado1, double lado2, double lado3) {
-        this.lado1 = lado1;
-        this.lado2 = lado2;
-        this.lado3 = lado3;
+    private int fatorDeCriptografia;
+
+    public Criptografia() {
+
+    }
+
+    public int getFatorDeCriptografia() {
+        return fatorDeCriptografia;
+    }
+
+    public void setFatorDeCriptografia(int fatorDeCriptografia) {
+        this.fatorDeCriptografia = fatorDeCriptografia;
     }
 
     @Override
-    public double area() {
-        return ((lado1 + lado2) * lado3) / 2;
+    public String criptografar(String line) {
+        return null;
     }
 
     @Override
-    public double perimetro() {
-        return lado1 + lado2 + lado3;
-    }
+    public String desCriptografar(String line) {
 
-    public double getLado1() {
-        return lado1;
-    }
-
-    public double getLado2() {
-        return lado2;
-    }
-
-    public double getLado3() {
-        return lado3;
+        String output = "";
+        int temp;
+        char temporaria;
+        int valor = getFatorDeCriptografia();
+        for (int j = line.length() - 1; j >= 0; j--) {
+            temp = ((((int) line.charAt(j) - 'A' - valor + 26) % 26) + 65);
+            temporaria = (char) temp;
+            output = temporaria + output;
+        }
+        return output;
     }
 }
 
+interface CriptografiaInterface{
+    String criptografar(String line);
+    String desCriptografar(String line);
+    int getFatorDeCriptografia();
+    void setFatorDeCriptografia(int fatorDeCriptografia);
+}
 
+class ExceptionPersonalizada extends RuntimeException{
 
-interface Forma{
-     double area() ;
+    @Serial
+    private static final long serialVersionUID = 1L;
 
-     double perimetro();
+    public ExceptionPersonalizada(String message) {
+        super(message);
+    }
 }
