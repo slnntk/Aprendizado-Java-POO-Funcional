@@ -4,18 +4,17 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    private static String path = "C:\\Users\\alunok11\\Desktop";
-    private static String pathIn = "\\simuladoIn.txt";
+    private static final String path = "C:\\Users\\alunok11\\Desktop";
+    private static final String pathIn = "\\simuladoIn.txt";
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         readTxt rf = new readTxt();
         List<String> cart = rf.readMethod(sc);
-        Criptografia criptografia = new Criptografia();
-        for (String s : criptografia.criptografar(cart)){
+        CriptografiaInterface criptografia = new Criptografia();
+        for (String s : criptografia.desCriptografar(cart)){
             System.out.print(s);
         }
-
     }
 }
 
@@ -36,13 +35,17 @@ class Criptografia implements CriptografiaInterface {
 
         List<String> list = new ArrayList<>();
 
+        String charTemp;
+
         for (String s : cartaCriptografada){
             for (int i = 0;i < s.length();i++){
-                if (predefinido.containsKey(String.valueOf(s.charAt(i)))){
-                    list.add(predefinido.get(String.valueOf(s.charAt(i))));
-                }else{
-                    list.add(String.valueOf(s.charAt(i)));
+                charTemp = String.valueOf(s.charAt(i));
+                for (Map.Entry<String, String> key : predefinido.entrySet()){
+                    if (String.valueOf(s.charAt(i)).equals(key.getValue())){
+                        charTemp = key.getKey();
+                    }
                 }
+                list.add(charTemp);
             }
         }
         return list;
@@ -70,24 +73,6 @@ class Criptografia implements CriptografiaInterface {
 interface CriptografiaInterface{
     List<String> criptografar(List<String> cartaCriptografada);
     List<String> desCriptografar(List<String> cartaCriptografada);
-}
-
-class Carta{
-
-    private String text;
-
-    public Carta(String text) {
-        this.text = text;
-    }
-
-    @Override
-    public String toString() {
-        return text;
-    }
-
-    public String getText() {
-        return text;
-    }
 }
 
 class readTxt implements readFileInterFace {
