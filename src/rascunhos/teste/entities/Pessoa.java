@@ -1,6 +1,6 @@
 package rascunhos.teste.entities;
 
-public abstract class Pessoa{
+public abstract class Pessoa implements Comparable<Pessoa>{
 
     private String name;
     private String email;
