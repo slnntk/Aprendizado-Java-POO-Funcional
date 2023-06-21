@@ -156,6 +156,23 @@ class Estoque{
         }
         System.out.println("Esse produto não existe");
     }
+
+    public void addByQuantidade(String name, int quantidade){
+        for (Produto produtoLista : produtos){
+            if (Objects.equals(produtoLista.getNome(), name)){
+                int temp = produtoLista.getQuantidade() + quantidade;
+                if (quantidade <= 0){
+                    return;
+                }
+                else{
+                    produtoLista.setQuantidade(produtoLista.getQuantidade() + quantidade);
+                }
+                System.out.println("Esse produto teve a quantidade alterada, foi adicionado !");
+                return;
+            }
+        }
+        System.out.println("Esse produto não existe");
+    }
 }
 
 class Produto{
@@ -219,6 +236,7 @@ class Sistema implements SistemaInterface{
             System.out.println("Digite 1 para adicionar um produto: ");
             System.out.println("Digite 2 para remover um produto: ");
             System.out.println("Digite 3 para reduzir quantidade de um produto: ");
+            System.out.println("Digite 4 para adicionar quantidade de um produto: ");
             System.out.println("Digite 6 para finalizar o programa: ");
             System.out.println("-------------------------------------");
 
@@ -256,7 +274,12 @@ class Sistema implements SistemaInterface{
                 empresa.getEstoque().removeByQuantidade(nome, quantidade);
                 break;
             case 4:
-                System.out.println("Número 4");
+                System.out.println("Digite o nome do produto e a quantidade a ser adicionado:");
+                System.out.print("Nome: ");
+                nome = sc.next();
+                System.out.print("Quantidade: ");
+                quantidade = sc.nextInt();
+                empresa.getEstoque().addByQuantidade(nome, quantidade);
                 break;
             case 5:
                 System.out.println("Número 5");
@@ -292,6 +315,11 @@ class Sistema implements SistemaInterface{
         empresa.getEstoque().removeByQuantidade(produto.getNome(), quantidade);
     }
 
+    @Override
+    public void addByQuantidade(Produto produto, int quantidade) {
+        empresa.getEstoque().removeByQuantidade(produto.getNome(), quantidade);
+    }
+
 }
 
 interface SistemaInterface{
@@ -301,5 +329,6 @@ interface SistemaInterface{
 
     void removeByQuantidade(Produto produto, int quantidade);
 
+    void addByQuantidade(Produto produto, int quantidade);
 
 }
