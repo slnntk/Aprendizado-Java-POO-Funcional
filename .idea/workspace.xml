@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/src/rascunhos/kaique/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rascunhos/kaique/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Users/cassi/Downloads/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33/mysql-connector-j-8.0.33.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -215,6 +216,8 @@
       <workItem from="1683202222972" duration="1143000" />
       <workItem from="1683212008369" duration="2805000" />
       <workItem from="1683216898293" duration="97000" />
+      <workItem from="1688072681297" duration="27000" />
+      <workItem from="1688400446030" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>
