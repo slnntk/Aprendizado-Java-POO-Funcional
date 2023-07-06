@@ -1,6 +1,6 @@
 package a;
 
-public class Servicos {
+public class Services {
 
     private String item;
     private String codigo;
@@ -14,35 +14,22 @@ public class Servicos {
     private Float valorTBDI;
 
 
-    public Servicos(String item, String codigo, String banco, String descricao, String unidade, int quantidade, Float valorUnitario, Float valorUnitarioBDI) {
+    public Services(String item, String codigo, String banco, String descricao, String unidade, int quantidade, Float valorUnitario, Float valorUnitarioBDI) {
         this.item = item;
-        this.codigo = codigo;
-        this.banco = banco;
-        this.descricao = descricao;
-        this.unidade = unidade;
-        this.quantidade = quantidade;
         this.valorUnitario = valorUnitario;
         this.valorUnitarioBDI = valorUnitarioBDI;
     }
 
-    public Servicos(String[] parameters, int i) {
+    public Services(String[] parameters, int i) {
         this.item = parameters[0];
-        this.descricao = parameters[1];
-        this.unidade = parameters[2];
-        this.quantidade = Integer.parseInt(parameters[3]);
         this.valorUnitario = Float.valueOf(parameters[4]);
         this.valorUnitarioBDI = Float.valueOf(parameters[5]);
         this.valorT = Float.valueOf(parameters[6]);
         this.valorTBDI = Float.valueOf(parameters[7]);
     }
 
-    public Servicos(String[] parameters) {
+    public Services(String[] parameters) {
         this.item = parameters[0];
-        this.codigo = parameters[1];
-        this.banco = parameters[2];
-        this.descricao = parameters[3];
-        this.unidade = parameters[4];
-        this.quantidade = Integer.parseInt(parameters[5]);
         this.valorUnitario = Float.valueOf(parameters[6]);
         this.valorUnitarioBDI = Float.valueOf(parameters[7]);
     }

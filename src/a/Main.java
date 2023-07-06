@@ -1,6 +1,5 @@
 package a;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -10,8 +9,8 @@ public class Main {
         Locale.setDefault(Locale.US);
 
         Leitor a = new Leitor();
-        List<Servicos> listEmp = a.lerArchiveEmp("D:\\Users\\cassi\\Downloads-1\\tsv\\EMP2.tsv");
-        List<Servicos> listMLG = a.lerArchiveMlg("D:\\Users\\cassi\\Downloads-1\\tsv\\MLG2.tsv");
+        List<Services> listEmp = a.lerArchiveEmp("D:\\Users\\cassi\\Downloads-1\\tsv\\EMP2.tsv");
+        List<Services> listMLG = a.lerArchiveMlg("D:\\Users\\cassi\\Downloads-1\\tsv\\MLG2.tsv");
 
 
         try{

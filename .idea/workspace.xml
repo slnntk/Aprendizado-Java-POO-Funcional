@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/a/Leitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a/ServicesComparation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a/Servicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a/ValorUnitarioComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/Leitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/ServicesComparation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/ServicesComparation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/Servicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/ValorUnitarioComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/ValorUnitarioComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +210,8 @@
       <workItem from="1683216898293" duration="97000" />
       <workItem from="1688072681297" duration="27000" />
       <workItem from="1688400446030" duration="8000" />
-      <workItem from="1688653545161" duration="6690000" />
+      <workItem from="1688653545161" duration="7708000" />
+      <workItem from="1688662079913" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>

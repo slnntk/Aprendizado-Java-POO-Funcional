@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Leitor {
-    public List<Servicos> lerArchiveEmp(String path) {
-        List<Servicos> servicosList = new ArrayList<>();
+    public List<Services> lerArchiveEmp(String path) {
+        List<Services> servicesList = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
@@ -20,8 +20,8 @@ public class Leitor {
                 String valorUnitarioBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
                 parametros[6] = valorUnitario;
                 parametros[7] = valorUnitarioBDI;
-                Servicos a = new Servicos(parametros);
-                servicosList.add(a);
+                Services a = new Services(parametros);
+                servicesList.add(a);
                 line = br.readLine();
             }
 
@@ -31,11 +31,11 @@ public class Leitor {
             throw new RuntimeException(e);
         }
 
-        return servicosList;
+        return servicesList;
     }
 
-    public List<Servicos> lerArchiveMlg(String path) {
-        List<Servicos> servicosList = new ArrayList<>();
+    public List<Services> lerArchiveMlg(String path) {
+        List<Services> servicesList = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
@@ -50,8 +50,8 @@ public class Leitor {
                 parametros[5] = valorUnitarioBDI;
                 parametros[6] = valorT;
                 parametros[7] = valorTBDI;
-                Servicos a = new Servicos(parametros, 1);
-                servicosList.add(a);
+                Services a = new Services(parametros, 1);
+                servicesList.add(a);
                 line = br.readLine();
             }
 
@@ -61,7 +61,7 @@ public class Leitor {
             throw new RuntimeException(e);
         }
 
-        return servicosList;
+        return servicesList;
     }
 }
 
