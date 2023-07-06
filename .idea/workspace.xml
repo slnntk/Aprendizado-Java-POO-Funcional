@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/a/Leitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/ServicesComparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/Servicos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/ValorUnitarioComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +74,7 @@
       <recent name="beecrowd.exerciciosResolvidos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.rascunhos.kaique.src.Main (1)">
+  <component name="RunManager" selected="Application.a.Main">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -78,19 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="estruturadedados.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.app.Main" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rascunhos.leitorDeTxt.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.ConduiteRefracted.src.Main1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.app.Main" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rascunhos.ConduiteRefracted.src.*" />
+          <option name="PATTERN" value="rascunhos.leitorDeTxt.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.leitorDeTxt.app.Main" />
+    <configuration name="a.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a.Main" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rascunhos.leitorDeTxt.app.*" />
+          <option name="PATTERN" value="a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.a.Main" />
         <item itemvalue="Application.rascunhos.kaique.src.Main (1)" />
         <item itemvalue="Application.rascunhos.kaique.src.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +210,7 @@
       <workItem from="1683216898293" duration="97000" />
       <workItem from="1688072681297" duration="27000" />
       <workItem from="1688400446030" duration="8000" />
+      <workItem from="1688653545161" duration="6690000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>
