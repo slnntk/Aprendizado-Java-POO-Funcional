@@ -15,14 +15,20 @@ public class Leitor {
             String line = br.readLine();
             while (line != null) {
                 String[] parametros = line.split("\t");
-                // Remover "R$", espaço em branco, pontos e substituir vírgulas por pontos
-                String valorUnitario = parametros[6].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                String valorUnitarioBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                parametros[6] = valorUnitario;
-                parametros[7] = valorUnitarioBDI;
-                Services a = new Services(parametros);
-                servicesList.add(a);
-                line = br.readLine();
+                if (!line.isEmpty()){
+                    if (Character.isDigit(line.charAt(0)) && parametros.length > 4){
+                        String valorUnitario = parametros[6].replace("R$", "").trim().replace(".", "").replace(",", ".");
+                        String valorUnitarioBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
+                        parametros[6] = valorUnitario;
+                        parametros[7] = valorUnitarioBDI;
+                        Services a = new Services(parametros);
+                        servicesList.add(a);
+                        line = br.readLine();
+                    }
+                    else{
+                        line = br.readLine();
+                    }
+                }
             }
 
         } catch (FileNotFoundException e) {
@@ -41,18 +47,24 @@ public class Leitor {
             String line = br.readLine();
             while (line != null) {
                 String[] parametros = line.split("\t");
-                // Remover "R$", espaço em branco, pontos e substituir vírgulas por pontos
-                String valorUnitario = parametros[4].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                String valorUnitarioBDI = parametros[5].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                String valorT = parametros[6].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                String valorTBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                parametros[4] = valorUnitario;
-                parametros[5] = valorUnitarioBDI;
-                parametros[6] = valorT;
-                parametros[7] = valorTBDI;
-                Services a = new Services(parametros, 1);
-                servicesList.add(a);
-                line = br.readLine();
+                if (!line.isEmpty()){
+                    if(Character.isDigit(line.charAt(0)) && parametros.length > 4){
+                        String valorUnitario = parametros[4].replace("R$", "").trim().replace(".", "").replace(",", ".");
+                        String valorUnitarioBDI = parametros[5].replace("R$", "").trim().replace(".", "").replace(",", ".");
+                        String valorT = parametros[6].replace("R$", "").trim().replace(".", "").replace(",", ".");
+                        String valorTBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
+                        parametros[4] = valorUnitario;
+                        parametros[5] = valorUnitarioBDI;
+                        parametros[6] = valorT;
+                        parametros[7] = valorTBDI;
+                        Services a = new Services(parametros, 1);
+                        servicesList.add(a);
+                        line = br.readLine();
+                    }
+                    else{
+                        line = br.readLine();
+                    }
+                }
             }
 
         } catch (FileNotFoundException e) {
