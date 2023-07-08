@@ -3,6 +3,8 @@ package a.util;
 import a.entities.Item;
 import a.interfaces.VerificadorInterface;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -10,6 +12,7 @@ import java.util.Set;
 public class Verificador implements VerificadorInterface {
 
     public void compararListas(Set<Item> emp, Set<Item> mlg) {
+
         Set<String> mlgItems = new HashSet<>();
         for (Item itemMLG : mlg) {
             mlgItems.add(itemMLG.getItem());
