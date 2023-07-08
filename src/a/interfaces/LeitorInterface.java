@@ -3,10 +3,9 @@ package a.interfaces;
 import a.entities.Item;
 
 import java.util.List;
+import java.util.Set;
 
 public interface LeitorInterface {
-
-    List<Item> lerArchiveEmp(String path);
-    List<Item> lerArchiveMlg(String path);
-
+    Set<Item> lerArchiveEmp(String path);
+    Set<Item> lerArchiveMlg(String path);
 }

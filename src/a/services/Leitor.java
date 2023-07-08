@@ -7,32 +7,30 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.text.DecimalFormat;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Leitor implements LeitorInterface {
-    public List<Item> lerArchiveEmp(String path) {
-        List<Item> itemList = new ArrayList<>();
+    private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("0.00");
+
+    public Set<Item> lerArchiveEmp(String path) {
+        Set<Item> itemList = new HashSet<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            String line = br.readLine();
-            while (line != null) {
+            String line;
+            while ((line = br.readLine()) != null) {
                 String[] parametros = line.split("\t");
-                if (!line.isEmpty()){
-                    if (Character.isDigit(line.charAt(0)) && parametros.length > 4){
-                        String valorUnitario = parametros[6].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                        String valorUnitarioBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                        parametros[6] = valorUnitario;
-                        parametros[7] = valorUnitarioBDI;
-                        Item a = new Item(parametros);
-                        itemList.add(a);
-                        line = br.readLine();
-                    }
-                    else{
-                        line = br.readLine();
-                    }
+
+                if (!line.isEmpty() && Character.isDigit(line.charAt(0)) && parametros.length > 4) {
+                    String valorUnitario = formatarValor(parametros[6]);
+                    String valorUnitarioBDI = formatarValor(parametros[7]);
+                    parametros[6] = valorUnitario;
+                    parametros[7] = valorUnitarioBDI;
+                    Item a = new Item(parametros);
+                    itemList.add(a);
                 }
             }
-
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
@@ -42,33 +40,27 @@ public class Leitor implements LeitorInterface {
         return itemList;
     }
 
-    public List<Item> lerArchiveMlg(String path) {
-        List<Item> itemList = new ArrayList<>();
+    public Set<Item> lerArchiveMlg(String path) {
+        Set<Item> itemList = new HashSet<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            String line = br.readLine();
-            while (line != null) {
+            String line;
+            while ((line = br.readLine()) != null) {
                 String[] parametros = line.split("\t");
-                if (!line.isEmpty()){
-                    if(Character.isDigit(line.charAt(0)) && parametros.length > 4){
-                        String valorUnitario = parametros[4].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                        String valorUnitarioBDI = parametros[5].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                        String valorT = parametros[6].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                        String valorTBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
-                        parametros[4] = valorUnitario;
-                        parametros[5] = valorUnitarioBDI;
-                        parametros[6] = valorT;
-                        parametros[7] = valorTBDI;
-                        Item a = new Item(parametros, 1);
-                        itemList.add(a);
-                        line = br.readLine();
-                    }
-                    else{
-                        line = br.readLine();
-                    }
+
+                if (!line.isEmpty() && Character.isDigit(line.charAt(0)) && parametros.length > 4) {
+                    String valorUnitario = formatarValor(parametros[4]);
+                    String valorUnitarioBDI = formatarValor(parametros[5]);
+                    String valorT = formatarValor(parametros[6]);
+                    String valorTBDI = formatarValor(parametros[7]);
+                    parametros[4] = valorUnitario;
+                    parametros[5] = valorUnitarioBDI;
+                    parametros[6] = valorT;
+                    parametros[7] = valorTBDI;
+                    Item a = new Item(parametros, 1);
+                    itemList.add(a);
                 }
             }
-
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
@@ -76,9 +68,11 @@ public class Leitor implements LeitorInterface {
         }
 
         return itemList;
+    }
+
+    private String formatarValor(String valor) {
+        valor = valor.replace("R$", "").replaceAll("[.,]", "");
+        double valorFormatado = Double.parseDouble(valor) / 100.0;
+        return DECIMAL_FORMAT.format(valorFormatado);
     }
 }
-
-
-
-
