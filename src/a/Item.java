@@ -1,6 +1,6 @@
 package a;
 
-public class Services {
+public class Item {
 
     private String item;
     private String codigo;
@@ -14,13 +14,13 @@ public class Services {
     private Float valorTBDI;
 
 
-    public Services(String item, String codigo, String banco, String descricao, String unidade, int quantidade, Float valorUnitario, Float valorUnitarioBDI) {
+    public Item(String item, String codigo, String banco, String descricao, String unidade, int quantidade, Float valorUnitario, Float valorUnitarioBDI) {
         this.item = item;
         this.valorUnitario = valorUnitario;
         this.valorUnitarioBDI = valorUnitarioBDI;
     }
 
-    public Services(String[] parameters, int i) {
+    public Item(String[] parameters, int i) {
         this.item = parameters[0];
         this.valorUnitario = Float.valueOf(parameters[4]);
         this.valorUnitarioBDI = Float.valueOf(parameters[5]);
@@ -28,7 +28,7 @@ public class Services {
         this.valorTBDI = Float.valueOf(parameters[7]);
     }
 
-    public Services(String[] parameters) {
+    public Item(String[] parameters) {
         this.item = parameters[0];
         this.valorUnitario = Float.valueOf(parameters[6]);
         this.valorUnitarioBDI = Float.valueOf(parameters[7]);

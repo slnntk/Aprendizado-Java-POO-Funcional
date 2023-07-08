@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Leitor {
-    public List<Services> lerArchiveEmp(String path) {
-        List<Services> servicesList = new ArrayList<>();
+    public List<Item> lerArchiveEmp(String path) {
+        List<Item> itemList = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
@@ -21,8 +21,8 @@ public class Leitor {
                         String valorUnitarioBDI = parametros[7].replace("R$", "").trim().replace(".", "").replace(",", ".");
                         parametros[6] = valorUnitario;
                         parametros[7] = valorUnitarioBDI;
-                        Services a = new Services(parametros);
-                        servicesList.add(a);
+                        Item a = new Item(parametros);
+                        itemList.add(a);
                         line = br.readLine();
                     }
                     else{
@@ -37,11 +37,11 @@ public class Leitor {
             throw new RuntimeException(e);
         }
 
-        return servicesList;
+        return itemList;
     }
 
-    public List<Services> lerArchiveMlg(String path) {
-        List<Services> servicesList = new ArrayList<>();
+    public List<Item> lerArchiveMlg(String path) {
+        List<Item> itemList = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
@@ -57,8 +57,8 @@ public class Leitor {
                         parametros[5] = valorUnitarioBDI;
                         parametros[6] = valorT;
                         parametros[7] = valorTBDI;
-                        Services a = new Services(parametros, 1);
-                        servicesList.add(a);
+                        Item a = new Item(parametros, 1);
+                        itemList.add(a);
                         line = br.readLine();
                     }
                     else{
@@ -73,7 +73,7 @@ public class Leitor {
             throw new RuntimeException(e);
         }
 
-        return servicesList;
+        return itemList;
     }
 }
 

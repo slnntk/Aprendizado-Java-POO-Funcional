@@ -2,9 +2,9 @@ package a;
 
 import java.util.Comparator;
 
-public class ValorUnitarioComparator implements Comparator<Services> {
+public class ValorUnitarioComparator implements Comparator<Item> {
     @Override
-    public int compare(Services s1, Services s2) {
+    public int compare(Item s1, Item s2) {
         return s1.getValorUnitario().compareTo(s2.getValorUnitario());
     }
 }

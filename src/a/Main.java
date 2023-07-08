@@ -9,24 +9,22 @@ public class Main {
         Locale.setDefault(Locale.US);
 
         Leitor a = new Leitor();
-        List<Services> listEmp = a.lerArchiveEmp("D:\\Users\\cassi\\Downloads-1\\tsv\\PLANILHA - ORIGINAL - GRUPO 04.tsv");
-        List<Services> listMLG = a.lerArchiveMlg("D:\\Users\\cassi\\Downloads-1\\tsv\\PLANILHA - LICITAÇÃO IFCE - ATUALIZADA 07072023 - GRUPO 04.tsv");
+        List<Item> listEmp = a.lerArchiveEmp("D:\\Users\\cassi\\Downloads-1\\tsv\\EMP2.tsv");
+        List<Item> listMLG = a.lerArchiveMlg("D:\\Users\\cassi\\Downloads-1\\tsv\\MLG2.tsv");
+        compararListas(listEmp, listMLG);
+    }
 
-
-        try{
-            for (int i = 0;i < listEmp.size();i++){
-                System.out.println(listMLG.get(i).getItem() + "|" + listEmp.get(i).getItem());
-                if (listMLG.get(i).getItem().equals(listEmp.get(i).getValorUnitario())){
-                    if (listMLG.get(i).getValorUnitario() > listEmp.get(i).getValorUnitario()){
-                        System.out.println("MLG: " + listMLG.get(i).getItem() + ": " + listMLG.get(i).getValorUnitario());
-                        System.out.println("IFCE: " + listEmp.get(i).getItem() + ": " + listEmp.get(i).getValorUnitario());
+    public static void compararListas(List<Item> emp, List<Item> mlg) {
+        for (Item itemEmpresa : emp) {
+            for (Item itemMLG : mlg) {
+                if (itemEmpresa.getItem().equals(itemMLG.getItem())) {
+                    if (itemMLG.getValorUnitario() > itemEmpresa.getValorUnitario()){
+                        System.out.println("MLG: " + itemMLG.getItem()+ ": " + itemMLG.getValorUnitario());
+                        System.out.println("IFCE: " + itemEmpresa.getItem() + ": " + itemEmpresa.getValorUnitario());
                         System.out.println("--------------------------------------------------------------------");
                     }
                 }
             }
-        } catch (IndexOutOfBoundsException e){
-            System.out.println("Possui uma linha faltando na tabela ! ");;
         }
-
     }
 }

@@ -2,27 +2,27 @@ package a;
 
 public class ServicesComparation {
 
-    private Services empresa;
-    private Services mlg;
+    private Item empresa;
+    private Item mlg;
 
-    public ServicesComparation(Services empresa, Services mlg) {
+    public ServicesComparation(Item empresa, Item mlg) {
         this.empresa = empresa;
         this.mlg = mlg;
     }
 
-    public Services getEmpresa() {
+    public Item getEmpresa() {
         return empresa;
     }
 
-    public void setEmpresa(Services empresa) {
+    public void setEmpresa(Item empresa) {
         this.empresa = empresa;
     }
 
-    public Services getMlg() {
+    public Item getMlg() {
         return mlg;
     }
 
-    public void setMlg(Services mlg) {
+    public void setMlg(Item mlg) {
         this.mlg = mlg;
     }
 }
