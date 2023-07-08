@@ -1,10 +1,13 @@
 package a;
 
+import a.entities.Item;
+import a.interfaces.VerificadorInterface;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Verificador {
+public class Verificador implements VerificadorInterface {
 
     public void compararListas(List<Item> emp, List<Item> mlg) {
         Set<String> mlgItems = new HashSet<>();

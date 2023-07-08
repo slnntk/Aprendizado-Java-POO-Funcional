@@ -1,5 +1,7 @@
 package a;
 
+import a.entities.Item;
+
 import java.util.Comparator;
 
 public class ValorUnitarioComparator implements Comparator<Item> {

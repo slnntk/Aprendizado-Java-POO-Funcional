@@ -1,4 +1,6 @@
-package a;
+package a.entities;
+
+import java.util.Objects;
 
 public class Item {
 
@@ -46,6 +48,7 @@ public class Item {
                 valorUnitario + "," +
                 valorUnitarioBDI;
     }
+
 
     public String getItem() {
         return item;

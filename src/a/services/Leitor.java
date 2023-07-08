@@ -1,13 +1,15 @@
-package a;
+package a.services;
+
+import a.interfaces.LeitorInterface;
+import a.entities.Item;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-public class Leitor {
+public class Leitor implements LeitorInterface {
     public List<Item> lerArchiveEmp(String path) {
         List<Item> itemList = new ArrayList<>();
 

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/a/interfaces/LeitorInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a/interfaces/VerificadorInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/entities/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/services/Leitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/ValorUnitarioComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/ValorUnitarioComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a/Verificador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a/Verificador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,7 +140,7 @@
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="a.*" />
+          <option name="PATTERN" value="a.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,7 +222,7 @@
       <workItem from="1688735507423" duration="435000" />
       <workItem from="1688739624406" duration="365000" />
       <workItem from="1688759877215" duration="36000" />
-      <workItem from="1688780076351" duration="653000" />
+      <workItem from="1688780076351" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>
