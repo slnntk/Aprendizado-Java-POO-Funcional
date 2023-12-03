@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/estruturadedados/x/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lst/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturadedados/y/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioAula2/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursopoo/src/Interfaces [INTERFACES, ACOPLAMENTOS]/src/interfaceExercicioAula2/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <recent name="a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.estruturadedados.x.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -89,6 +87,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="estruturadedados.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estruturadedados.y.Main" />
+      <module name="JAVA2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estruturadedados.y.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,26 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rascunhos.kaique.src.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rascunhos.kaique.src.Main" />
-      <module name="JAVA2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rascunhos.kaique.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.estruturadedados.x.Main" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.a.Main (1)" />
         <item itemvalue="Application.a.Main" />
-        <item itemvalue="Application.rascunhos.kaique.src.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +209,7 @@
       <workItem from="1688780076351" duration="1778000" />
       <workItem from="1698790536302" duration="1355000" />
       <workItem from="1699275078881" duration="385000" />
-      <workItem from="1701635008377" duration="1053000" />
+      <workItem from="1701635008377" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>
