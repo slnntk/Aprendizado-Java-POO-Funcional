@@ -44,7 +44,18 @@ public class Program {
         System.out.println("Pagamento basico: " + carRental.getInvoice().getBasicPayment());
         System.out.println("Imposto: " + carRental.getInvoice().getTax());
         System.out.println("Pagamento total: " + carRental.getInvoice().getTotalPayment());
+
+
+        StringBuffer x = new StringBuffer("b");
+        System.out.println(x);
+        a(x);
+        System.out.println(x);
     }
+
+    public static void a(StringBuffer b){
+        b.append("aaa");
+    }
+
 }
 
 /*
