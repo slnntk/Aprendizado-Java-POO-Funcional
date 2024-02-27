@@ -68,14 +68,13 @@ class ArvoreAVL {
         } else if (valor > no.valor) {
             no.direita = inserirRecursivo(no.direita, valor);
         } else {
-            return no; // Não permitir elementos duplicados
+            return no;
         }
 
         no.altura = 1 + Math.max(altura(no.esquerda), altura(no.direita));
 
         int balanceamento = getBalanceamento(no);
 
-        // Casos de rotação
         if (balanceamento > 1 && valor < no.esquerda.valor) {
             return rotacaoDireita(no);
         }
@@ -136,7 +135,6 @@ class ArvoreAVL {
 
         int balanceamento = getBalanceamento(no);
 
-        // Casos de rotação após remoção
         if (balanceamento > 1 && getBalanceamento(no.esquerda) >= 0) {
             return rotacaoDireita(no);
         }
@@ -176,7 +174,6 @@ class ArvoreAVL {
     }
 }
 
-// Exemplo de utilização
 public class Main {
     public static void main(String[] args) {
         ArvoreAVL arvore = new ArvoreAVL();
