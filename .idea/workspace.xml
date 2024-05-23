@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c722340-f9d2-4eda-8621-70ab7b6048b7" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/ayslan/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lst/OitoDamas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lst/X.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30911332",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -85,7 +86,7 @@
       <recent name="a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ayslan.Main">
+  <component name="RunManager" selected="Application.OitoDamas">
     <configuration name="Aula1e2_buscaLinear" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -114,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ayslan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ayslan.Main" />
+    <configuration name="OitoDamas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lst.OitoDamas" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ayslan.*" />
+          <option name="PATTERN" value="lst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="estruturadedados.x.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estruturadedados.x.Main" />
+    <configuration name="ayslan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ayslan.Main" />
       <module name="JAVA2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estruturadedados.x.*" />
+          <option name="PATTERN" value="ayslan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OitoDamas" />
         <item itemvalue="Application.ayslan.Main" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.estruturadedados.xg.Main" />
         <item itemvalue="Application.estruturadedados.z.Main" />
-        <item itemvalue="Application.estruturadedados.x.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +237,7 @@
       <workItem from="1709054222006" duration="280000" />
       <workItem from="1715800638571" duration="113000" />
       <workItem from="1715800803188" duration="1090000" />
+      <workItem from="1716468392148" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1682530599768</created>
